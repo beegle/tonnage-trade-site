@@ -38,12 +38,26 @@ Do not hand-edit them — edit the content JSON and rebuild.
 
 ## Deploying
 
-`.github/workflows/pages.yml` builds this directory and publishes it on every push to `main` that
-touches `site/`. Turn it on once: **Settings → Pages → Build and deployment → Source: GitHub
-Actions**. For a project page, also set a repository variable `BASE_PATH` to `/<repo>`.
+```bash
+./publish.sh "commit subject"      # build, sync, commit, push
+./publish.sh --dry-run             # build and sync, show the diff, push nothing
+```
 
-The generated HTML is committed as well, so the site can equally be served by pointing Pages at a
-branch folder without running the workflow.
+`publish.sh` is the only supported route to production. It builds, copies a
+whitelist into a clone of `beegle/tonnage-trade-site` (kept at `~/code/tonnage-trade-site`,
+override with `TNT_SITE_CLONE`), and pushes `main`. GitHub Actions builds and
+deploys on every push touching `site/`, so publishing is that one command.
+
+The script exists rather than a plain `git push` because this working repo also
+holds `data/` and `articles/` — production runbooks, the droplet address, an
+open privilege finding, and unsubmitted drafts. None of it may reach a public
+repository, which is why the public history was started fresh and why the
+script refuses to push if `data/`, `articles/`, or any operational string
+appears in the staged tree. It also refuses if `site/CNAME` is missing, which
+would silently drop the custom domain.
+
+Pages is configured as **Source: GitHub Actions**. If it is ever switched back
+to branch-serving, the site 404s: the repo has no `index.html` at its root.
 
 ## Adding an article
 

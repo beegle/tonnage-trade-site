@@ -150,6 +150,24 @@ a:hover { color: var(--signal-hover); border-bottom-color: var(--signal-hover); 
 
 /* ---- prose --------------------------------------------------------------- */
 
+/* Running prose is justified, and justification is only readable because the
+   hyphenation below it gives the browser somewhere to put the slack. Without
+   hyphens the sole lever is the word space, and a 40rem measure opens rivers.
+   The limits are what keep it from looking cheap: no word under eight letters
+   is broken, never after fewer than four characters, and no more than two
+   hyphens may stack down the right edge. Runs on the long measures only —
+   captions, documentation boxes, margin notes and the standfirst stay ragged,
+   because under about fifty characters a line has no slack to distribute. */
+.prose p {
+  text-align: justify;
+  text-justify: inter-word;      /* stretch the spaces, never the letters */
+  -webkit-hyphens: auto;
+  hyphens: auto;
+  hyphenate-limit-chars: 8 4 3;
+  -webkit-hyphenate-limit-lines: 2;
+  hyphenate-limit-lines: 2;      /* honoured in WebKit/Blink, ignored elsewhere */
+}
+
 .prose { max-width: var(--measure); display: flex; flex-direction: column; gap: var(--s4); }
 .prose p { margin: 0; font-size: 17px; line-height: 1.62; text-wrap: pretty; }
 .prose h2 {
@@ -404,6 +422,11 @@ a:hover { color: var(--signal-hover); border-bottom-color: var(--signal-hover); 
    screen the row stacks rather than scrolling out of reach. Numeric tables
    still scroll — their columns only mean anything side by side. */
 @media (max-width: 700px) {
+  /* Ragged right on the phone. The measure here is too short for justification
+     to hide the slack, and the hyphen ladder costs more than the flush edge
+     is worth. */
+  .prose p { text-align: left; hyphens: manual; }
+
   .ledger-wrap { overflow-x: visible; }
   .ledger, .ledger tbody, .ledger tr, .ledger td { display: block; }
   .ledger thead, .ledger colgroup { display: none; }
