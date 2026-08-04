@@ -681,8 +681,15 @@ class Site:
             )
             tags = f'<div class="tags">Topics: {links}</div>'
 
+        # A revised piece says so on its face. updated_at is optional; when present it
+        # sits between the publication date and the figures line, so the reader sees
+        # the revision before any number.
+        updated = (
+            f' · updated {long_date(article["updated_at"])}'
+            if article.get("updated_at") else ""
+        )
         byline = (
-            f'{esc(article["byline"])} · published {long_date(article["published_at"])} · '
+            f'{esc(article["byline"])} · published {long_date(article["published_at"])}{updated} · '
             f'figures as of {long_date(article["as_of"])}'
         )
 

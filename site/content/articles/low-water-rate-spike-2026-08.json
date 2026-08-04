@@ -5,7 +5,7 @@
   "standfirst": "Barge freight on the lower Mississippi jumped 24 percent in the last full week of July, a move this river usually saves for late September.",
   "byline": "Ken Beegle",
   "min_tier": "free",
-  "as_of": "2026-07-28",
+  "as_of": "2026-08-03",
   "published_at": "2026-08-03",
   "featured": true,
   "tags": [
@@ -92,10 +92,6 @@
     }
   },
   "sections": [
-    {
-      "kind": "prose",
-      "html": "<h2>Update, August 4</h2><p>Two things have moved since this was published, and they point in opposite directions. No rate figure has changed: USDA has not printed a new week, so the $18.09 a ton for the week reported July 28 and everything derived from it stands.</p><p><strong>The forecast got deeper.</strong> The guidance cited above was issued August 1. The issuances of August 2 and 3 carry St. Louis to <strong>&minus;0.1 ft</strong> rather than 1.0 ft, putting it below gauge zero, and Memphis to <strong>&minus;1.6 ft</strong> rather than &minus;1.0 ft, both on August 17. Vicksburg eased slightly, to 11.5 ft on August 24. In all three the lowest point is still the last point.</p><p><strong>The observed river has stopped falling.</strong> St. Louis stage since the July 28 reading has oscillated rather than declined: 3.80, 3.16, 2.32, 2.83, 3.54, 3.03, and <strong>2.82 ft on August 3</strong>. Discharge there is flat at 124 to 130 thousand cubic feet per second. Downstream is still draining, but more slowly than the headline suggests: Memphis discharge fell 23 percent over those six days and Vicksburg 10 percent.</p><p>So the market is currently pricing a forecast that observation has not yet confirmed. That is the strongest available counterargument to the piece above, and it is worth stating plainly: if St. Louis holds near 3 ft rather than crossing zero, the October premium described here is priced off a path the river did not take. The next two guidance cycles and Thursday's USDA print are the tests.</p>"
-    },
     {
       "kind": "key_figure",
       "label": "Lower Mississippi export corridor",
@@ -253,7 +249,7 @@
     },
     {
       "kind": "prose",
-      "html": "<h2>The river fell fourteen feet in four weeks</h2><p>The driver is the river, and the river moved fast. The Mississippi at St. Louis fell from 17.3 feet on June 30 to 3.3 feet on July 28 (U.S. Geological Survey gauge readings), while discharge dropped 56 percent, from 287,000 to 127,000 cubic feet per second. July's minimum stage at St. Louis was the second-lowest July reading in the 2013 to 2026 record, behind only drought-year 2023.</p><p>And the forecast points down, not up. National Weather Service guidance issued August 1 carries St. Louis to 1.0 foot and Memphis to a foot below gauge zero by around August 16, and Vicksburg to 10.8 feet by August 23. In all three forecasts the lowest point is the last point: the guidance runs out before the river finds a bottom. Those are forecasts, not measurements, and they extend only two to three weeks; but nothing in the current guidance shows a turn.</p>"
+      "html": "<h2>The river fell fourteen feet in four weeks, then stalled</h2><p>The driver is the river, and the river moved fast. The Mississippi at St. Louis fell from 17.3 feet on June 30 to 3.3 feet on July 28 (U.S. Geological Survey gauge readings), while discharge dropped 56 percent, from 287,000 to 127,000 cubic feet per second. July's minimum stage at St. Louis was the second-lowest July reading in the 2013 to 2026 record, behind only drought-year 2023.</p><p>Since then the fall has paused. St. Louis oscillated between 2.32 and 3.80 feet over the six days through August 3, closing that day at 2.82 feet, with discharge flat at 124 to 130 thousand cubic feet per second. Downstream is still draining: Memphis discharge fell 23 percent over the same six days and Vicksburg 10 percent.</p><p>The forecast, meanwhile, has deepened. National Weather Service guidance issued August 2 and 3 carries St. Louis to a tenth of a foot below gauge zero and Memphis to −1.6 feet, both by August 17, and Vicksburg to 11.5 feet by August 24. In all three the lowest point is the last point: the guidance runs out before the river finds a bottom. These are forecasts, not measurements, they extend only two to three weeks, and they are revising daily — the August 1 issuance had St. Louis a full foot higher.</p>"
     },
     {
       "kind": "supertable",
@@ -307,25 +303,25 @@
     },
     {
       "kind": "prose",
-      "html": "<h2>What would make this wrong</h2><p>Two things this is not. It is not 2022: at $18.09, rates stand at roughly one-fifth of the 2022 peak, and the river itself is not yet at crisis stage. Memphis read 0.85 feet on the morning of August 2, still well above the minus 8-foot mark the Weather Service treats as its low-water threshold there, and nowhere near the record lows of roughly minus 11 feet in October 2022 and minus 12 feet in October 2023.</p><p>And it is not a price forecast. The market is pricing a river forecast, and river forecasts unwind: two weeks of wet weather across the Missouri and Ohio basins would take the floor out from under the October quotes. One caution on reading the number itself: these are grain-barge rates, the standard public signal for shared-channel capacity. A tank barge or project cargo prices differently, even if it competes for the same water.</p>"
+      "html": "<h2>What would make this wrong</h2><p>The sharpest tension in the current tape: the market is pricing a forecast that observation has not yet confirmed. The observed river has stalled near 3 feet at St. Louis while the guidance says it crosses zero within two weeks. If the stall holds and the crossing never comes, the October premium is priced off a path the river did not take, and this piece's thesis weakens with it. The next two guidance cycles, and this week's USDA print, are the tests.</p><p>Two more things this is not. It is not 2022: at $18.09, rates stand at roughly one-fifth of the 2022 peak, and Memphis read 0.85 feet on the morning of August 2, still well above the minus 8-foot mark the Weather Service treats as its low-water threshold there and nowhere near the record lows of roughly minus 11 feet in October 2022 and minus 12 feet in October 2023. And it is not a price forecast: two weeks of wet weather across the Missouri and Ohio basins would take the floor out from under the October quotes. One caution on reading the number itself: these are grain-barge rates, the standard public signal for shared-channel capacity. A tank barge or project cargo prices differently, even if it competes for the same water.</p>"
     },
     {
       "kind": "watch_list",
       "title": "Bottom line — what to watch",
       "items": [
         {
-          "when": "Next two cycles",
-          "claim": "Whether the Weather Service guidance still ends at its own lowest point",
-          "basis": "All three bellwether forecasts currently do; a bottom appearing in the horizon is the first sign the market has overpriced October"
+          "when": "Next two guidance cycles",
+          "claim": "Whether the forecast still ends at its own lowest point, and whether St. Louis actually crosses zero",
+          "basis": "Guidance issued August 2 to 3 bottoms at −0.1 ft on August 17 while the observed stage has stalled near 3 ft"
         },
         {
-          "when": "August",
-          "claim": "Whether the October premium holds",
-          "basis": "USDA forward quotes put October 25 to 44 percent over spot; quoting below that curve means underwriting the rain"
+          "when": "Thu Aug 6",
+          "claim": "USDA's next weekly print: the first observed test of the $18.09 rate and of the forward curve",
+          "basis": "Weekly Grain Transportation Report barge-rate series"
         },
         {
           "when": "Harvest",
-          "claim": "The escalation starts from an $18 base, not the $12 to $14 base of 2022 and 2023",
+          "claim": "If the drawdown resumes, the escalation starts from an $18 base, not the $12 to $14 base of 2022 and 2023",
           "basis": "Rates crossed $14 five weeks earlier in the calendar than either analog"
         }
       ]
@@ -336,15 +332,17 @@
         "Source": "USDA Grain Transportation Report barge rates and forward tariff quotes; U.S. Geological Survey stage and discharge; National Weather Service river forecasts",
         "Grain": "One row per river segment per weekly USDA report date; one stage reading per gauge per day",
         "Showing": "10 of 26 reporting segments — the house export-corridor proxy is the ten lower-Mississippi segments flagged as the export bottleneck",
-        "Period": "Rates through the week reported July 28, 2026; river conditions through August 3; forecasts issued August 1 in the body and August 2 to 3 in the August 4 update",
+        "Period": "Rates and forward quotes through the week reported July 28, 2026; river observations through August 3; forecasts issued August 2 to 3, 2026",
         "n": "13 weekly prints across 10 segments in the lead series",
         "Units": "US$ per ton; feet; thousand cubic feet per second",
         "Evidence class": "Observed. Forecast stages are estimates and are labelled as such wherever they appear",
         "Uncertainty": "River forecasts revise daily and extend only two to three weeks",
         "Built by": "Ken Beegle",
-        "Pre-specified": "No — exploratory"
+        "Pre-specified": "No — exploratory",
+        "Revision": "Published August 3; revised August 4 to fold the August 2 to 3 river data into the body. The August 3 text is preserved in the site's public git history."
       },
-      "as_of": "2026-07-28"
+      "as_of": "2026-08-03"
     }
-  ]
+  ],
+  "updated_at": "2026-08-04"
 }
