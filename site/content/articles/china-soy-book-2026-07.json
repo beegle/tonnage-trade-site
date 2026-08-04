@@ -1,0 +1,63 @@
+{
+  "slug": "china-soy-book-2026-07",
+  "kind": "analysis",
+  "title": "China's soybean book is 12.4 million tons with seven weeks left: 40% of the 2021–23 pace, in a season that began at zero",
+  "standfirst": "Cumulative marketing-year purchase commitments (outstanding sales + shipments), China, U.S. soybeans · USDA Export Sales Reporting via Tonnage &amp; Trade internal data, release of Jul 22, 2026 · data through the week ending Jul 9, 2026",
+  "byline": "Ken Beegle",
+  "min_tier": "free",
+  "as_of": "2026-07-09",
+  "published_at": "2026-07-23",
+  "featured": false,
+  "tags": [
+    "Grain",
+    "Export demand",
+    "China"
+  ],
+  "meta_description": "China's cumulative U.S. soybean book reached 12.4 million tons with seven weeks left, 40 percent of the 2021 to 2023 pace at the same date.",
+  "ledger_finding": "China's cumulative U.S. soybean book reached 12.4 million tons with seven weeks left, 40 percent of the 2021 to 2023 pace at the same date.",
+  "ledger_evidence": "USDA FAS export sales · observed",
+  "lead": {
+    "paragraphs": [
+      "China has committed to <b>12.4 million tons</b> of U.S. soybeans this marketing year, measured through July 9. At the same date in 2021/22 and 2022/23 the book stood at 30.8 and 31.5 million. This year is running at <b>40% of that pace</b>, and it started from a standing stop: zero purchases for the first nine weeks, through the trade stop and up to the November 2025 agreement."
+    ]
+  },
+  "sections": [
+    {
+      "kind": "prose",
+      "html": "<p>The decline was already under way. 2023/24 and 2024/25 stepped down to 24.4 and 22.5 million tons. The 2024/25 curve then froze at 22.5 in late April 2025 and never moved again: a flat line five months long. Commitments can stop mid-year, and the chart shows what that looks like.</p>"
+    },
+    {
+      "kind": "prose",
+      "html": "<p>The agreement's reported terms are 12 million tons in calendar 2025 and at least 25 million a year through 2028. The current book has met the first number. It is not on a path to the second.</p>"
+    },
+    {
+      "kind": "prose",
+      "html": "<p>For grain merchandisers and barge operators, the shape of these curves matters more than the level. The buying that fills the river happens in the first twelve weeks of the marketing year: the steep September–November run on every curve above. This fall starts from almost nothing: new-crop 2026/27 sales to China were <b>136,000 tons</b> on July 9.</p>"
+    },
+    {
+      "kind": "prose",
+      "html": "<p>That leaves two ways the autumn breaks. If Beijing front-loads purchases to meet the agreement, the steep segment arrives on a river the July 21 forecast already has at drought stages: heavy demand against restricted draft. If it buys the way it bought in 2025, harvest demand stays corn-led and the rate story stays a water story.</p>"
+    },
+    {
+      "kind": "prose",
+      "html": "<p>Two limits on reading these curves. Commitments are contracts, not barges. And cancellations restate them retroactively (2024/25 shows small net reductions), while the agreement's terms run on calendar years and the curves run on marketing years.</p>"
+    },
+    {
+      "kind": "prose",
+      "html": "<p>Watch the USDA weekly export sales report, published Thursdays on a two-week lag. Between now and September it is the series that shows which way this goes.</p>"
+    },
+    {
+      "kind": "docbox",
+      "fields": {
+        "Source": "USDA Foreign Agricultural Service, Export Sales Reporting",
+        "Grain": "One row per commodity per destination per week",
+        "Period": "Marketing year through the week ending July 9, 2026",
+        "Units": "Million metric tons",
+        "Evidence class": "Observed",
+        "Built by": "Ken Beegle",
+        "Pre-specified": "No — exploratory"
+      },
+      "as_of": "2026-07-09"
+    }
+  ]
+}

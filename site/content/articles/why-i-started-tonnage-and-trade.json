@@ -1,0 +1,58 @@
+{
+  "slug": "why-i-started-tonnage-and-trade",
+  "kind": "note",
+  "title": "Why I Started Tonnage and Trade",
+  "standfirst": "Kenneth Beegle, founder",
+  "byline": "Ken Beegle",
+  "min_tier": "free",
+  "as_of": "2026-07-15",
+  "published_at": "2026-07-15",
+  "featured": false,
+  "tags": [
+    "About"
+  ],
+  "meta_description": "Why this exists: sourced maritime evidence, with every estimate labelled as one.",
+  "ledger_finding": "Why this exists: sourced maritime evidence, with every estimate labelled as one.",
+  "ledger_evidence": "—",
+  "lead": {
+    "paragraphs": [
+      "My connection to the maritime industry began long before I considered starting a research firm. I am the son of Robert Beegle, who founded Marcon International. I grew up alongside the company, first helping with vessel and barge files and later working on the systems that made those records more useful."
+    ]
+  },
+  "sections": [
+    {
+      "kind": "prose",
+      "html": "<p>In the early days of the commercial internet, I helped build Marcon&rsquo;s first website so clients could find vessels online. As the company moved from paper files to digital records, I became deeply involved in organizing the information and building internal search tools that helped brokers find relevant vessels and market history more quickly. That experience taught me an enduring lesson: information becomes valuable when it is organized around the questions people need to answer.</p>"
+    },
+    {
+      "kind": "prose",
+      "html": "<p>Tonnage and Trade applies that lesson to today&rsquo;s maritime markets. It is an independent research firm built to bring together public records, operating data, company disclosures, and historical context. As of July 2026, the Tonnage and Trade source catalog tracks 139 maritime, economic, operational, regulatory, and company-data source families. Seventy-seven are already built into the database, and that coverage is expanding quickly. The purpose is to explain what is changing, why it matters, and which developments deserve attention.</p>"
+    },
+    {
+      "kind": "prose",
+      "html": "<p>The firm&rsquo;s initial work focuses on the U.S. inland river and barge market. The Inland River Market Note connects freight rates with lock queues, river forecasts, navigation restrictions, cargo demand, and fleet conditions. Its forward-looking analysis is intended to identify the forces that may tighten capacity or move rates, not to present an estimate as if it were a traded price.</p>"
+    },
+    {
+      "kind": "prose",
+      "html": "<p>Tonnage and Trade will also publish vessel and barge market analysis and research on public maritime companies. Its pre-earnings work will identify the questions to watch in upcoming quarterly reports and use the results to interpret conditions across the wider maritime market. Over time, the coverage will expand across the U.S. commercial maritime industry.</p>"
+    },
+    {
+      "kind": "prose",
+      "html": "<p>I hold an MBA from Pepperdine University, which complements the maritime-data experience I developed through my work with Marcon. My approach is practical: assemble the relevant evidence, separate observation from inference, and explain what the findings could change for the reader.</p>"
+    },
+    {
+      "kind": "prose",
+      "html": "<p>I invite you to visit tonnage-trade.com, read the first analyses, and subscribe to the email briefing. Tonnage and Trade is beginning with the inland market, but its purpose is broader: to make U.S. maritime information more useful to the people making decisions.</p>"
+    },
+    {
+      "kind": "docbox",
+      "fields": {
+        "Source": "None — this is a statement of intent, not an analysis",
+        "Evidence class": "Opinion",
+        "Built by": "Ken Beegle",
+        "Pre-specified": "Not applicable"
+      },
+      "as_of": "2026-07-15"
+    }
+  ]
+}

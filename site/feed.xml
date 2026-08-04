@@ -5,21 +5,69 @@
   <link href="/feed.xml" rel="self"/>
   <link href="/"/>
   <id>/</id>
-  <updated>2026-07-10T12:00:00Z</updated>
+  <updated>2026-08-03T12:00:00Z</updated>
   <entry>
-    <title>Kirby Q2 2026 — Industry Signals from Marine, Power, Repair &amp; Oilfield Markets</title>
-    <link href="/reports/kex-2026-q2-industry-signals.html"/>
-    <id>/reports/kex-2026-q2-industry-signals.html</id>
-    <updated>2026-07-10T12:00:00Z</updated>
+    <title>The low-water rate spike came two months early</title>
+    <link href="/analysis/low-water-rate-spike-2026-08.html"/>
+    <id>/analysis/low-water-rate-spike-2026-08.html</id>
+    <updated>2026-08-03T12:00:00Z</updated>
     <author><name>Ken Beegle</name></author>
-    <summary>Kirby&#x27;s July 29 print can show where scarce equipment earns more — and where high utilization fails to lift rates.</summary>
+    <summary>Barge freight on the lower Mississippi jumped 24 percent in the last full week of July, a move this river usually saves for late September.</summary>
   </entry>
   <entry>
-    <title>The rate eased for a second week; Marseilles is still the binding lock</title>
-    <link href="/river-notes/river-note-2026-06-27.html"/>
-    <id>/river-notes/river-note-2026-06-27.html</id>
-    <updated>2026-06-27T12:00:00Z</updated>
+    <title>Rates up $3.55 with October quoted 25 to 44% higher, and Memphis forecast below zero by Aug 7</title>
+    <link href="/river-notes/river-note-2026-07-31.html"/>
+    <id>/river-notes/river-note-2026-07-31.html</id>
+    <updated>2026-07-31T12:00:00Z</updated>
     <author><name>Ken Beegle</name></author>
-    <summary>The system average is down about 2% to $13.46 a ton, corn export demand holds firm, and the forward read is withheld as too stale to publish.</summary>
+    <summary>Every river system rose for the week ending July 28. The Lower Mississippi export corridor jumped $3.55 to $18.09 a ton, and USDA&#x27;s published forward curve now quotes every origin region above its current rate three months out.</summary>
+  </entry>
+  <entry>
+    <title>China&#x27;s soybean book is 12.4 million tons with seven weeks left: 40% of the 2021–23 pace, in a season that began at zero</title>
+    <link href="/analysis/china-soy-book-2026-07.html"/>
+    <id>/analysis/china-soy-book-2026-07.html</id>
+    <updated>2026-07-23T12:00:00Z</updated>
+    <author><name>Ken Beegle</name></author>
+    <summary>Cumulative marketing-year purchase commitments (outstanding sales + shipments), China, U.S. soybeans · USDA Export Sales Reporting via Tonnage &amp;amp; Trade internal data, release of Jul 22, 2026 · data through the week ending Jul 9, 2026</summary>
+  </entry>
+  <entry>
+    <title>The inland system lost 28% of its tonnage in 20 years: coal is most of the story, and everything else held</title>
+    <link href="/analysis/demand-base-2026-07.html"/>
+    <id>/analysis/demand-base-2026-07.html</id>
+    <updated>2026-07-23T12:00:00Z</updated>
+    <author><name>Ken Beegle</name></author>
+    <summary>Internal (inland-waterway) receiving tonnage by commodity group, 2004–2023 · USACE Waterborne Commerce Statistics via Tonnage &amp;amp; Trade internal data, release of Jul 22, 2026</summary>
+  </entry>
+  <entry>
+    <title>Scarcity set barge pricing in Q1: the July 29 print tests whether it holds</title>
+    <link href="/analysis/kex-2026-07-q1-review-q2-preview.html"/>
+    <id>/analysis/kex-2026-07-q1-review-q2-preview.html</id>
+    <updated>2026-07-23T12:00:00Z</updated>
+    <author><name>Ken Beegle</name></author>
+    <summary>Prepared July 23, 2026 · Reviewing Q1 2026 (released April 30, 2026) · Previewing Q2 2026: July 29, 2026, 6:00 a.m. Central, call 7:30 · Evidence refreshed through the July 22, 2026 Tonnage &amp;amp; Trade data release</summary>
+  </entry>
+  <entry>
+    <title>The retirement wall: the 1997 build boom meets its 30-year exams with replacement running at a fifth of the old pace</title>
+    <link href="/analysis/retirement-wall-2026-07.html"/>
+    <id>/analysis/retirement-wall-2026-07.html</id>
+    <updated>2026-07-23T12:00:00Z</updated>
+    <author><name>Ken Beegle</name></author>
+    <summary>Censused U.S. barge fleet by build year · USACE vessel census (2023 vintage) via Tonnage &amp;amp; Trade internal data, release of Jul 22, 2026</summary>
+  </entry>
+  <entry>
+    <title>Rates jumped 10–25% across every river system, and the forward read says the tightening isn&#x27;t done</title>
+    <link href="/river-notes/river-note-2026-07-23.html"/>
+    <id>/river-notes/river-note-2026-07-23.html</id>
+    <updated>2026-07-23T12:00:00Z</updated>
+    <author><name>Ken Beegle</name></author>
+    <summary>Rates and model through the week of Jul 14 · lock and river conditions through Jul 21 · export sales through Jul 9 · all figures from the Tonnage &amp;amp; Trade data release of Jul 22, 2026</summary>
+  </entry>
+  <entry>
+    <title>Why I Started Tonnage and Trade</title>
+    <link href="/notes/why-i-started-tonnage-and-trade.html"/>
+    <id>/notes/why-i-started-tonnage-and-trade.html</id>
+    <updated>2026-07-15T12:00:00Z</updated>
+    <author><name>Ken Beegle</name></author>
+    <summary>Kenneth Beegle, founder</summary>
   </entry>
 </feed>

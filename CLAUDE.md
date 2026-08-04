@@ -46,9 +46,9 @@ Three the generator enforces itself, because they are integrity controls rather 
 A figure needs a named guarantor. `Showing` states the display universe as *K of N* plus the rule
 that cut it. `Pre-specified` reads `Yes` only with a committed plan.
 
-**No em dashes in site prose.** Replace each with punctuation fitted to the sentence: colons before
-payoffs, parentheses for asides, commas for appositives, semicolons between joined clauses. En
-dashes in numeric ranges are kept.
+A note on em dashes, because the archive is inconsistent: the hand-authored site this replaced had
+them stripped throughout, deliberately. The generator's records use them. Match the generator, so the
+site reads as one voice, unless the owner decides otherwise.
 
 ## Before publishing
 

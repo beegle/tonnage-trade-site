@@ -1,0 +1,71 @@
+{
+  "slug": "demand-base-2026-07",
+  "kind": "analysis",
+  "title": "The inland system lost 28% of its tonnage in 20 years: coal is most of the story, and everything else held",
+  "standfirst": "Internal (inland-waterway) receiving tonnage by commodity group, 2004–2023 · USACE Waterborne Commerce Statistics via Tonnage &amp; Trade internal data, release of Jul 22, 2026",
+  "byline": "Ken Beegle",
+  "min_tier": "free",
+  "as_of": "2023-12-31",
+  "published_at": "2026-07-23",
+  "featured": false,
+  "tags": [
+    "Demand",
+    "Coal",
+    "Waterborne commerce"
+  ],
+  "meta_description": "The inland system lost 28 percent of its tonnage in 20 years, and coal accounts for most of the loss while everything else held.",
+  "ledger_finding": "The inland system lost 28 percent of its tonnage in 20 years, and coal accounts for most of the loss while everything else held.",
+  "ledger_evidence": "USACE waterborne commerce · observed",
+  "lead": {
+    "paragraphs": [
+      "Inland receiving tonnage fell from 627 million tons in 2004 to <b>449 million</b> in 2023, down <b>28%</b>. One commodity did most of it."
+    ]
+  },
+  "sections": [
+    {
+      "kind": "prose",
+      "html": "<p>Coal dropped from 177 million tons to 71. That is 60% below 2004 and 62% below its 2005 peak of 187, a loss of 106 million tons a year. It tracks the retirement of river-served power plants, not the business cycle.</p>"
+    },
+    {
+      "kind": "prose",
+      "html": "<p>Strip coal out and the rest of the demand base fell 16%. Petroleum and products are down 10% (137 Mt in 2023). Chemicals are down 7% (49 Mt, the flattest line on the chart). Food and farm are down 9% (73 Mt, with a 97 Mt peak in 2016 and export-driven swings around it). Aggregates are down 27% (91 Mt, still below the 2004 construction boom). Manufactured goods are down 9%.</p>"
+    },
+    {
+      "kind": "prose",
+      "html": "<p>The structural read matters more than any single year.</p>"
+    },
+    {
+      "kind": "prose",
+      "html": "<p>For investors and lenders, the 20-year picture separates two theses. The barge fleet's pricing power rests on scarce equipment against a stable-to-slowly-eroding non-coal base. It does not rest on volume growth, and underwriting that assumes tonnage recovery is arguing with this chart.</p>"
+    },
+    {
+      "kind": "prose",
+      "html": "<p>For operators, the mix shift is the strategy. Liquid cargoes and grain hold their tonnage while dry bulk's anchor customer exits. That is why tank barge supply discipline earns margins that hopper fleets have to chase through consolidation.</p>"
+    },
+    {
+      "kind": "prose",
+      "html": "<p>And for the public-funding debate, the same locks and dredging budget now serves 28% fewer internal tons. The cost per ton of the system rises before WRDA (the Water Resources Development Act) spends a dollar.</p>"
+    },
+    {
+      "kind": "prose",
+      "html": "<p>Three limits. This is tonnage, not ton-miles; the ton-mile field is unpublished in this data vintage. It is the port-receiving view of internal traffic. And 2023 is the latest census year, so the 2024–2026 rate cycle sits entirely to the right of this chart.</p>"
+    },
+    {
+      "kind": "prose",
+      "html": "<p>The number to carry forward is the non-coal 16%. Coal cannot repeat its own decline: 71 million tons remain, and the fall since 2004 was 106. Whether system tonnage stabilizes from here depends on that shallower line, not the steep one.</p>"
+    },
+    {
+      "kind": "docbox",
+      "fields": {
+        "Source": "USACE Waterborne Commerce Statistics Center",
+        "Grain": "One row per traffic type per commodity per direction per year",
+        "Period": "2004 through 2023",
+        "Units": "Million short tons",
+        "Evidence class": "Observed",
+        "Built by": "Ken Beegle",
+        "Pre-specified": "No — exploratory"
+      },
+      "as_of": "2023-12-31"
+    }
+  ]
+}

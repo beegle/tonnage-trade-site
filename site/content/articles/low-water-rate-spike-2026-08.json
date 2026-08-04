@@ -1,0 +1,346 @@
+{
+  "slug": "low-water-rate-spike-2026-08",
+  "kind": "analysis",
+  "title": "The low-water rate spike came two months early",
+  "standfirst": "Barge freight on the lower Mississippi jumped 24 percent in the last full week of July, a move this river usually saves for late September.",
+  "byline": "Ken Beegle",
+  "min_tier": "free",
+  "as_of": "2026-07-28",
+  "published_at": "2026-08-03",
+  "featured": true,
+  "tags": [
+    "Rates",
+    "River conditions",
+    "Low water",
+    "Grain"
+  ],
+  "meta_description": "Lower-Mississippi grain freight reached $18.09 a ton in the week reported July 28, up 49.5 percent in four weeks. Measured at a common $14 threshold the escalation arrived five weeks earlier in the calendar than in 2022 or 2023.",
+  "ledger_finding": "Lower-Mississippi freight reached $18.09 a ton, crossing $14 five weeks earlier in the calendar than in either recent low-water year.",
+  "ledger_evidence": "USDA barge rates, USGS stage · observed",
+  "lead": {
+    "paragraphs": [
+      "Grain-barge freight on the lower Mississippi River reached <strong>$18.09 a ton</strong> in the week reported July 28: up $3.55 in one week and 49.5 percent over four weeks, averaged across ten lower-river segments. Moves of that size are not rare on this river. Moves of that size in July are.",
+      "Set aside 2004, the series' first year, when it was swinging between bases of $6.43 and $10.55, and this is the biggest early-summer weekly move the U.S. Department of Agriculture has recorded since the series began."
+    ],
+    "exhibit": {
+      "id": "2026-08-03-L1",
+      "type": "line",
+      "size": "lead",
+      "labels": [
+        "May 5",
+        "",
+        "",
+        "Jun 2",
+        "",
+        "",
+        "Jun 30",
+        "",
+        "",
+        "Jul 28"
+      ],
+      "point_labels": [
+        "May 5",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "Jul 28"
+      ],
+      "series": [
+        {
+          "label": "Lower Mississippi",
+          "role": "subject",
+          "data": [
+            13.68,
+            12.4,
+            12.4,
+            12.24,
+            12.31,
+            12.37,
+            12.19,
+            12.08,
+            12.1,
+            12.5,
+            13.8,
+            14.54,
+            18.09
+          ]
+        }
+      ],
+      "value_label": "US$ per ton",
+      "value_format": "$%.0f",
+      "aria_label": "Line: the ten-segment lower-Mississippi barge rate holding between 12.08 and 12.50 dollars a ton for nine weeks, then rising three weeks running to 18.09 dollars in the week reported July 28, 2026.",
+      "caption": "<strong>The rate held flat for nine weeks, then moved three times in a row.</strong> Ten-segment lower-Mississippi average, US$ per ton, thirteen report weeks to July 28, 2026. Value axis runs from zero.",
+      "docbox": {
+        "Source": "USDA Grain Transportation Report, Tonnage & Trade data lake",
+        "Grain": "One row per river segment per weekly USDA report date",
+        "Showing": "10 of 26 reporting segments — the export-corridor proxy",
+        "Period": "Report weeks May 5 to July 28, 2026",
+        "n": "13 weekly prints, ten segments each",
+        "Units": "US$ per ton",
+        "Evidence class": "Observed",
+        "Built by": "Ken Beegle",
+        "Pre-specified": "No — exploratory"
+      }
+    }
+  },
+  "sections": [
+    {
+      "kind": "key_figure",
+      "label": "Lower Mississippi export corridor",
+      "value": "$18.09",
+      "unit": "per ton",
+      "change": "↑ $3.55 vs. last week (24.4%)",
+      "change_dir": "negative",
+      "spark": [
+        13.68,
+        12.4,
+        12.4,
+        12.24,
+        12.31,
+        12.37,
+        12.19,
+        12.08,
+        12.1,
+        12.5,
+        13.8,
+        14.54,
+        18.09
+      ],
+      "spark_label": "Sparkline: the ten-segment lower-Mississippi rate holding between $12.08 and $12.50 for nine weeks, then rising three weeks running to $18.09 a ton.",
+      "spark_caption": "<strong>Rate, US$/ton.</strong> $13.68 → $18.09. Thirteen report weeks to July 28, 2026.",
+      "context": "The rate held in a $12.08 to $12.50 band for nine weeks, then moved three times in a row. Ten segments, all reporting in every week shown.",
+      "source_line": "USDA Grain Transportation Report, week reported July 28, 2026",
+      "as_of": "2026-07-28"
+    },
+    {
+      "kind": "prose",
+      "html": "<h2>A July move in a September market</h2><p>The seasonal pattern is one-sided. Across the thirteen years of the matched rate-and-river record, the twelve largest weekly increases in any month all fall between August 20 and October 11, with a single exception in March 2022. The big rate move on this river is a harvest-season animal. This one showed up in July.</p><p>The two recent low-water years make the calendar shift concrete. Measured at a common threshold, the first week the lower-river average reached $14 a ton, 2026 crossed in the week reported <strong>July 21</strong>. In 2022 the crossing came the week of August 30, and in 2023 the week of August 29: <strong>five weeks later, in both years</strong>. From there, 2022 ran to a peak of $87.19 on October 11 and 2023 to $51.62 on September 26.</p>"
+    },
+    {
+      "kind": "exhibit",
+      "width": "wide",
+      "exhibit": {
+        "id": "2026-08-03-F1",
+        "type": "line",
+        "size": "full",
+        "labels": [
+          "wk 18",
+          "",
+          "",
+          "",
+          "wk 22",
+          "",
+          "",
+          "",
+          "wk 26",
+          "",
+          "",
+          "",
+          "wk 30",
+          "",
+          "",
+          "",
+          "wk 34",
+          "",
+          ""
+        ],
+        "series": [
+          {
+            "label": "2026",
+            "role": "subject",
+            "data": [
+              null,
+              13.68,
+              12.4,
+              12.4,
+              12.24,
+              12.31,
+              12.37,
+              12.19,
+              12.08,
+              12.1,
+              12.5,
+              13.8,
+              14.54,
+              18.09,
+              null,
+              null,
+              null,
+              null,
+              null
+            ]
+          },
+          {
+            "label": "2022",
+            "role": "context",
+            "data": [
+              13.78,
+              12.36,
+              11.62,
+              10.76,
+              10.65,
+              10.96,
+              12.09,
+              13.25,
+              12.51,
+              11.52,
+              11.51,
+              12.33,
+              13.28,
+              13.24,
+              12.77,
+              12.94,
+              12.92,
+              14.33,
+              17.84
+            ]
+          },
+          {
+            "label": "2023",
+            "role": "context",
+            "data": [
+              9.17,
+              8.4,
+              8.05,
+              7.59,
+              7.44,
+              7.39,
+              7.3,
+              7.4,
+              7.97,
+              8.12,
+              8.62,
+              10.1,
+              10.86,
+              11.42,
+              12.95,
+              12.87,
+              13.65,
+              23.88,
+              22.41
+            ]
+          }
+        ],
+        "value_label": "US$ per ton",
+        "value_format": "$%.0f",
+        "aria_label": "Line: the lower-Mississippi ten-segment rate by week of year for 2026, 2022 and 2023. The 2026 trace rises through week 30 to 18.09 dollars a ton and ends there, while the 2022 and 2023 traces stay flat until week 34 and only turn upward at week 35.",
+        "caption": "<strong>2026 crossed $14 a ton in week 30; 2022 and 2023 did not cross until week 35.</strong> Ten-segment lower-Mississippi average, US$ per ton, by week of year, weeks 18 to 36. The 2026 series ends at week 31 because the data does. Both earlier years continue upward beyond this frame, peaking at $87.19 in week 41 of 2022 and $51.62 in week 39 of 2023. Value axis runs from zero.",
+        "docbox": {
+          "Source": "USDA Grain Transportation Report barge rates, Tonnage & Trade data lake",
+          "Grain": "One row per river segment per weekly USDA report date; plotted values are the mean of the ten lower-Mississippi segments",
+          "Showing": "Weeks 18 to 36 of 3 years. The time window is cut, no values within it are. Years chosen as the two most recent low-water seasons plus the current year, not by outcome",
+          "Period": "Weeks 18 to 36 of 2022, 2023 and 2026",
+          "n": "19 week-slots; 13 prints in 2026, 19 in each of 2022 and 2023, ten segments each",
+          "Units": "US$ per ton",
+          "Evidence class": "Observed",
+          "Uncertainty": "None displayed; these are published prints, not estimates",
+          "Built by": "Ken Beegle",
+          "Pre-specified": "No — exploratory"
+        }
+      }
+    },
+    {
+      "kind": "prose",
+      "html": "<h2>The river fell fourteen feet in four weeks</h2><p>The driver is the river, and the river moved fast. The Mississippi at St. Louis fell from 17.3 feet on June 30 to 3.3 feet on July 28 (U.S. Geological Survey gauge readings), while discharge dropped 56 percent, from 287,000 to 127,000 cubic feet per second. July's minimum stage at St. Louis was the second-lowest July reading in the 2013 to 2026 record, behind only drought-year 2023.</p><p>And the forecast points down, not up. National Weather Service guidance issued August 1 carries St. Louis to 1.0 foot and Memphis to a foot below gauge zero by around August 16, and Vicksburg to 10.8 feet by August 23. In all three forecasts the lowest point is the last point: the guidance runs out before the river finds a bottom. Those are forecasts, not measurements, and they extend only two to three weeks; but nothing in the current guidance shows a turn.</p>"
+    },
+    {
+      "kind": "supertable",
+      "caption": "<strong>The move began in the week of July 7 and tripled in pace three weeks later.</strong> Ten-segment lower-Mississippi average, US$ per ton, by USDA report week.",
+      "columns": [
+        {
+          "label": "Week reported",
+          "numeric": false
+        },
+        {
+          "label": "Lower-river average",
+          "numeric": true
+        },
+        {
+          "label": "Change vs. last week",
+          "numeric": true
+        }
+      ],
+      "rows": [
+        [
+          "June 30",
+          "$12.10",
+          "↑ $0.02"
+        ],
+        [
+          "July 7",
+          "$12.50",
+          "↑ $0.40"
+        ],
+        [
+          "July 14",
+          "$13.80",
+          "↑ $1.30"
+        ],
+        [
+          "July 21",
+          "$14.54",
+          "↑ $0.74"
+        ],
+        [
+          "July 28",
+          "$18.09",
+          "↑ $3.55"
+        ]
+      ],
+      "source_line": "USDA Grain Transportation Report; all ten segments reporting in every week shown"
+    },
+    {
+      "kind": "prose",
+      "html": "<h2>The forward market has already voted</h2><p>USDA publishes forward barge quotes as a percentage of a 1976 benchmark tariff, and in the July 28 week every origin region was quoted above spot for October delivery: 44 percent above from the Cairo to Memphis stretch, 42 percent from the Ohio origins, 38 percent from St. Louis, and 25 to 28 percent from the Illinois and upper river.</p><p>Shippers appear to be responding to the same math. Grain tonnage through the seven locks USDA tracks hit 2.37 million tons in the week ending July 25, the highest weekly total since at least early May, consistent with grain moving early, ahead of the drawdown, though the tonnage data alone cannot prove the motive.</p>"
+    },
+    {
+      "kind": "prose",
+      "html": "<h2>What would make this wrong</h2><p>Two things this is not. It is not 2022: at $18.09, rates stand at roughly one-fifth of the 2022 peak, and the river itself is not yet at crisis stage. Memphis read 0.85 feet on the morning of August 2, still well above the minus 8-foot mark the Weather Service treats as its low-water threshold there, and nowhere near the record lows of roughly minus 11 feet in October 2022 and minus 12 feet in October 2023.</p><p>And it is not a price forecast. The market is pricing a river forecast, and river forecasts unwind: two weeks of wet weather across the Missouri and Ohio basins would take the floor out from under the October quotes. One caution on reading the number itself: these are grain-barge rates, the standard public signal for shared-channel capacity. A tank barge or project cargo prices differently, even if it competes for the same water.</p>"
+    },
+    {
+      "kind": "watch_list",
+      "title": "Bottom line — what to watch",
+      "items": [
+        {
+          "when": "Next two cycles",
+          "claim": "Whether the Weather Service guidance still ends at its own lowest point",
+          "basis": "All three bellwether forecasts currently do; a bottom appearing in the horizon is the first sign the market has overpriced October"
+        },
+        {
+          "when": "August",
+          "claim": "Whether the October premium holds",
+          "basis": "USDA forward quotes put October 25 to 44 percent over spot; quoting below that curve means underwriting the rain"
+        },
+        {
+          "when": "Harvest",
+          "claim": "The escalation starts from an $18 base, not the $12 to $14 base of 2022 and 2023",
+          "basis": "Rates crossed $14 five weeks earlier in the calendar than either analog"
+        }
+      ]
+    },
+    {
+      "kind": "docbox",
+      "fields": {
+        "Source": "USDA Grain Transportation Report barge rates and forward tariff quotes; U.S. Geological Survey stage and discharge; National Weather Service river forecasts",
+        "Grain": "One row per river segment per weekly USDA report date; one stage reading per gauge per day",
+        "Showing": "10 of 26 reporting segments — the house export-corridor proxy is the ten lower-Mississippi segments flagged as the export bottleneck",
+        "Period": "Rates through the week reported July 28, 2026; river conditions through July 28; forecasts issued August 1, 2026",
+        "n": "13 weekly prints across 10 segments in the lead series",
+        "Units": "US$ per ton; feet; thousand cubic feet per second",
+        "Evidence class": "Observed. Forecast stages are estimates and are labelled as such wherever they appear",
+        "Uncertainty": "River forecasts revise daily and extend only two to three weeks",
+        "Built by": "Ken Beegle",
+        "Pre-specified": "No — exploratory"
+      },
+      "as_of": "2026-07-28"
+    }
+  ]
+}

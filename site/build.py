@@ -636,14 +636,11 @@ class Site:
         for a in self.articles:
             kind = self.s["kinds"][a["kind"]]
             series_signal = " class=\"is-signal\"" if a["kind"] in ("special_report", "analysis") else ""
-            access = self.access_label(a)
-            access_signal = " class=\"is-signal\"" if not self.is_public(a) else ""
             rows += (
                 f"<tr><td>{esc(short_date(a['published_at']))}</td>"
                 f"<td{series_signal}>{esc(kind['label'])}</td>"
                 f'<td class="ledger__finding"><a href="{self.article_url(a)}">{esc(a["ledger_finding"])}</a></td>'
-                f"<td>{esc(a['ledger_evidence'])}</td>"
-                f"<td{access_signal}>{esc(access)}</td></tr>"
+                f"<td>{esc(a['ledger_evidence'])}</td></tr>"
             )
 
         count = len(self.articles)
@@ -651,10 +648,10 @@ class Site:
             f'<section class="stack--tight" style="display:flex;flex-direction:column;gap:10px">'
             f'<div class="eyebrow eyebrow--quiet">The ledger — everything published, newest first, nothing ranked</div>'
             f'<div class="ledger-wrap"><table class="ledger">'
-            f'<colgroup><col class="c-date"><col class="c-series"><col><col class="c-evid"><col class="c-access"></colgroup>'
+            f'<colgroup><col class="c-date"><col class="c-series"><col><col class="c-evid"></colgroup>'
             f'<thead><tr><th scope="col">Date</th><th scope="col">Series</th>'
             f'<th scope="col">Finding</th><th scope="col">Evidence</th>'
-            f'<th scope="col">Access</th></tr></thead><tbody>{rows}</tbody></table></div>'
+            f'</tr></thead><tbody>{rows}</tbody></table></div>'
             f'<div class="ledger__count">Showing {count} of {count} published '
             f'{"item" if count == 1 else "items"}, ordered by publication date.</div></section>'
         )
@@ -738,24 +735,22 @@ class Site:
         for a in articles:
             kind = self.s["kinds"][a["kind"]]
             series_signal = " class=\"is-signal\"" if a["kind"] in ("special_report", "analysis") else ""
-            access_signal = " class=\"is-signal\"" if not self.is_public(a) else ""
             rows += (
                 f"<tr><td>{esc(short_date(a['published_at']))}</td>"
                 f"<td{series_signal}>{esc(kind['label'])}</td>"
                 f'<td class="ledger__finding"><a href="{self.article_url(a)}">{esc(a["ledger_finding"])}</a></td>'
-                f"<td>{esc(a['ledger_evidence'])}</td>"
-                f"<td{access_signal}>{esc(self.access_label(a))}</td></tr>"
+                f"<td>{esc(a['ledger_evidence'])}</td></tr>"
             )
         if not rows:
-            rows = ('<tr><td colspan="5" style="font-family:var(--serif);font-size:15.5px;'
+            rows = ('<tr><td colspan="4" style="font-family:var(--serif);font-size:15.5px;'
                     'color:var(--ink)">Nothing published in this series yet.</td></tr>')
         k = len(articles)
         return (
             f'<div class="ledger-wrap"><table class="ledger">'
-            f'<colgroup><col class="c-date"><col class="c-series"><col><col class="c-evid"><col class="c-access"></colgroup>'
+            f'<colgroup><col class="c-date"><col class="c-series"><col><col class="c-evid"></colgroup>'
             f'<thead><tr><th scope="col">Date</th><th scope="col">Series</th>'
             f'<th scope="col">Finding</th><th scope="col">Evidence</th>'
-            f'<th scope="col">Access</th></tr></thead><tbody>{rows}</tbody></table></div>'
+            f'</tr></thead><tbody>{rows}</tbody></table></div>'
             f'<div class="ledger__count">Showing {k} of {universe} published '
             f'{"item" if universe == 1 else "items"} — {rule}.</div>'
         )

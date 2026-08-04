@@ -1,0 +1,160 @@
+{
+  "slug": "river-note-2026-07-31",
+  "kind": "river_note",
+  "title": "Rates up $3.55 with October quoted 25 to 44% higher, and Memphis forecast below zero by Aug 7",
+  "standfirst": "Every river system rose for the week ending July 28. The Lower Mississippi export corridor jumped $3.55 to $18.09 a ton, and USDA's published forward curve now quotes every origin region above its current rate three months out.",
+  "byline": "Ken Beegle",
+  "min_tier": "free",
+  "as_of": "2026-07-28",
+  "published_at": "2026-07-31",
+  "featured": false,
+  "tags": [
+    "Rates",
+    "River conditions",
+    "Locks",
+    "Grain"
+  ],
+  "meta_description": "Weekly Inland River Market Note, July 31, 2026: every river system rose for the week ending July 28, the Lower Mississippi export corridor jumped $3.55 to $18.09 a ton, and USDA's forward curve quotes every origin 25 to 44 percent above current three months out.",
+  "ledger_finding": "Every river system rose, and USDA's forward curve quoted every origin region 25 to 44 percent above its current rate three months out.",
+  "ledger_evidence": "USDA barge rates, NWS forecasts, USACE notices · observed",
+  "lead": {
+    "paragraphs": [
+      "Every river system rose for the week ending July 28. The Lower Mississippi export corridor jumped <strong>$3.55 to $18.09 a ton</strong>, up 24% in one week and 50% in five, and USDA's published forward curve now quotes <strong>every origin region 25 to 44% above its current rate</strong> three months out. The market has already priced a low-water harvest.",
+      "The Mississippi at Memphis is forecast <strong>below 0 ft around August 7</strong>, on its way to −1.9 ft. St. Louis, after falling <strong>15.4 ft in 19 days</strong>, steadied at 2.8 ft, and its overnight forecast now bottoms at −0.1 ft around August 11."
+    ]
+  },
+  "sections": [
+    {
+      "kind": "key_figure",
+      "label": "Lower Mississippi export corridor",
+      "value": "$18.09",
+      "unit": "per ton",
+      "change": "↑ $3.55 vs. last week (24.4%)",
+      "change_dir": "negative",
+      "spark": [
+        12.31,
+        12.37,
+        12.19,
+        12.08,
+        12.1,
+        12.5,
+        13.8,
+        14.54,
+        18.09
+      ],
+      "spark_label": "Sparkline: the ten-segment lower-Mississippi rate flat near $12.10 a ton for six weeks, then rising four weeks running to $18.09.",
+      "spark_caption": "<strong>Rate, US$/ton.</strong> $12.31 → $18.09. Nine report weeks to July 28, 2026.",
+      "context": "Ten segments, all reporting every week in the window. The July 28 print is 24.4% above the prior week and 49.5% above June 30.",
+      "source_line": "USDA Agricultural Marketing Service, week ending July 28, 2026",
+      "as_of": "2026-07-28"
+    },
+    {
+      "kind": "supertable",
+      "caption": "<strong>Every river system rose, and the Lower Mississippi rose fastest.</strong> Observed weekly rates, all five river systems, week ending July 28, 2026.",
+      "columns": [
+        {
+          "label": "River system",
+          "numeric": false
+        },
+        {
+          "label": "US$ per ton",
+          "numeric": true
+        },
+        {
+          "label": "Change vs. last week",
+          "numeric": true
+        }
+      ],
+      "rows": [
+        [
+          "Upper Mississippi (5 segments)",
+          "$43.17",
+          "↑ $2.53"
+        ],
+        [
+          "Illinois (6 segments)",
+          "$38.72",
+          "↑ $3.44"
+        ],
+        [
+          "Ohio (4 segments)",
+          "$28.45",
+          "↑ $2.41"
+        ],
+        [
+          "Middle Mississippi (1 segment)",
+          "$25.62",
+          "↑ $4.36"
+        ],
+        [
+          "Lower Mississippi (10 segments)",
+          "$18.09",
+          "↑ $3.55"
+        ]
+      ],
+      "source_line": "USDA Agricultural Marketing Service, week ending July 28, 2026. Middle Mississippi is a single quote, not an average"
+    },
+    {
+      "kind": "prose",
+      "html": "<h2>The forward curve prices October 25 to 44% higher</h2><p>The forward view leads with USDA's own quotes, not our model. USDA publishes downbound rates as a percent of the benchmark tariff at three horizons: current, one month out, three months out. For the week ending July 28, every one of the seven origin regions is quoted higher at every horizon, and the three-month leg carries a 25 to 44% premium over current. The steepest is Cairo to Memphis at 44.1%; the highest absolute quote is Twin Cities October at 1,018% of tariff.</p><p>These are percent-of-tariff quotes by origin region, a different unit and geography from the dollar-per-ton table above, and the two are never combined. What they say is direct: sellers of forward freight are asking late-October prices 25 to 44% above today's, with the largest premiums on the origins closest to the shallow water.</p>"
+    },
+    {
+      "kind": "prose",
+      "html": "<h2>River conditions</h2><p>Mississippi River at Memphis, TN (NWS MEMT1): <strong>3.6 ft stage</strong> on July 31, down from 15.6 ft a month earlier, forecast below 0 ft around August 7 on its way to −1.9 ft.</p><p>Mississippi River at St. Louis, MO (NWS EADM7): <strong>2.8 ft stage</strong> on July 31, after a 15.4-ft fall in 19 days. The overnight forecast bottoms at −0.1 ft on August 11 and holds near gauge zero through August 14; the previous day's issuance had fallen to −1.1 ft, so the path is revising daily.</p><p>Mississippi River at Vicksburg, MS (NWS VCKM6): <strong>18.5 ft stage</strong> on July 31, down from 34.3 ft a month earlier, with the July 30 forecast running to 12.0 ft by August 21.</p><p>A stage below gauge zero is a reading against the datum, not a closure. St. Louis and Memphis have operated below zero before. No draft restriction was posted anywhere we checked as of July 31: the notice feed we collect, the Corps' notices system, and the St. Louis District's July 29 channel report, so draft planning against these forecasts stays implication rather than instruction.</p>"
+    },
+    {
+      "kind": "prose",
+      "html": "<h2>Locks: daytime closures land next week</h2><p>Ahead, the calendar is not empty. The Corps' notices system carries <strong>Lock 19 shut 06:00 to 18:00 weekdays, August 3 to 21</strong>, for pier coring ahead of winter construction, with nights and weekends open, and <strong>Lock 25 shut 07:00 to 19:00 on August 4 and 6</strong> for protection-cell repair. Both are on the Upper Mississippi.</p><p>Emsworth on the Ohio has been under an amended notice since July 6 covering both chambers, and Barkley Lock on the Cumberland closes August 10 through September 30.</p>"
+    },
+    {
+      "kind": "prose",
+      "html": "<h2>Demand: grain moving early</h2><p>Downbound grain rose a <strong>fifth straight week, to 2.37 million tons</strong> in the week ending July 25, up 11.7% on the week and 71.7% above the June 20 trough. That is consistent with shippers pulling movement forward ahead of the low water; that is an inference, and the countercase is that it is ordinary seasonal timing. Tons moved early are tons borrowed from the harvest peak.</p>"
+    },
+    {
+      "kind": "watch_list",
+      "title": "Bottom line — what to watch into next week",
+      "items": [
+        {
+          "when": "Mon Aug 3",
+          "claim": "Lock 19 daytime closures begin, 06:00 to 18:00 CDT weekdays through August 21",
+          "basis": "USACE notice 214755 (Rock Island)"
+        },
+        {
+          "when": "Tue Aug 4 and Thu Aug 6",
+          "claim": "Lock 25 closed 07:00 to 19:00 both days for protection-cell rebuild",
+          "basis": "USACE St. Louis District channel condition report, July 29"
+        },
+        {
+          "when": "Tue Aug 4",
+          "claim": "USDA barge-rate week ends; the first observed test of whether the forward curve was right",
+          "basis": "Weekly USDA Agricultural Marketing Service print"
+        },
+        {
+          "when": "Fri Aug 7",
+          "claim": "Memphis is forecast to cross below 0 ft",
+          "basis": "NWS forecast issued July 30 to 31; forecasts revise daily"
+        },
+        {
+          "when": "Mon Aug 10",
+          "claim": "Barkley Lock closes through September 30",
+          "basis": "USACE notice 213653-1 (Nashville)"
+        }
+      ]
+    },
+    {
+      "kind": "docbox",
+      "fields": {
+        "Source": "USDA Agricultural Marketing Service barge rates and tariff quotes; National Weather Service river forecasts; USACE Notices to Navigation Interests and St. Louis District channel condition report",
+        "Grain": "One row per river segment per weekly report date; one forecast issuance per gauge",
+        "Showing": "10 of 26 reporting segments for the export-corridor proxy; 3 of 16 gauges, the three bellwethers bound to the export corridor",
+        "Period": "Rates through the week ending July 28, 2026; river and lock conditions through July 31; grain movements through the week ending July 25",
+        "Units": "US$ per ton; percent of the 1976 benchmark tariff; feet; short tons",
+        "Evidence class": "Observed. Forecast stages are estimates and revise daily",
+        "Uncertainty": "Forward quotes are asks, not transactions",
+        "Built by": "Ken Beegle",
+        "Pre-specified": "No — exploratory"
+      },
+      "as_of": "2026-07-31"
+    }
+  ]
+}

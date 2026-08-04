@@ -1,17 +1,35 @@
 <?xml version="1.0" encoding="utf-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url><loc>/</loc></url>
-  <url><loc>/reports/kex-2026-q2-industry-signals.html</loc></url>
-  <url><loc>/river-notes/river-note-2026-06-27.html</loc></url>
+  <url><loc>/analysis/low-water-rate-spike-2026-08.html</loc></url>
+  <url><loc>/river-notes/river-note-2026-07-31.html</loc></url>
+  <url><loc>/analysis/china-soy-book-2026-07.html</loc></url>
+  <url><loc>/analysis/demand-base-2026-07.html</loc></url>
+  <url><loc>/analysis/kex-2026-07-q1-review-q2-preview.html</loc></url>
+  <url><loc>/analysis/retirement-wall-2026-07.html</loc></url>
+  <url><loc>/river-notes/river-note-2026-07-23.html</loc></url>
+  <url><loc>/notes/why-i-started-tonnage-and-trade.html</loc></url>
   <url><loc>/river-notes/</loc></url>
   <url><loc>/reports/</loc></url>
   <url><loc>/analysis/</loc></url>
   <url><loc>/notes/</loc></url>
   <url><loc>/topics/</loc></url>
+  <url><loc>/topics/about.html</loc></url>
+  <url><loc>/topics/china.html</loc></url>
+  <url><loc>/topics/coal.html</loc></url>
+  <url><loc>/topics/demand.html</loc></url>
+  <url><loc>/topics/export-demand.html</loc></url>
+  <url><loc>/topics/fleet.html</loc></url>
   <url><loc>/topics/grain.html</loc></url>
-  <url><loc>/topics/kirby-kex.html</loc></url>
+  <url><loc>/topics/kirby.html</loc></url>
+  <url><loc>/topics/locks.html</loc></url>
+  <url><loc>/topics/low-water.html</loc></url>
+  <url><loc>/topics/newbuilds.html</loc></url>
+  <url><loc>/topics/pricing.html</loc></url>
   <url><loc>/topics/rates.html</loc></url>
   <url><loc>/topics/river-conditions.html</loc></url>
+  <url><loc>/topics/tank-barges.html</loc></url>
+  <url><loc>/topics/waterborne-commerce.html</loc></url>
   <url><loc>/data/</loc></url>
   <url><loc>/method/</loc></url>
   <url><loc>/subscribe/</loc></url>
