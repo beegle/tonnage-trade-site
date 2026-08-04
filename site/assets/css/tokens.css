@@ -1,0 +1,44 @@
+/* ==========================================================================
+   Tonnage & Trade — Warm Paper tokens
+   Transcribed from the Tonnage & Trade Design Language, version 1.
+   Single source of truth for colour, type, rule weight and rhythm.
+   Do not fork these values into component files.
+   ========================================================================== */
+
+:root {
+  color-scheme: light;
+
+  /* -- ink and paper — six values (design language §01) -------------------- */
+  --desk:  #eeece7;   /* the surface the page sits on */
+  --paper: #fcfbf9;   /* the page. Never pure white */
+  --ink:   #1b1b1a;   /* body, headlines, data marks, masthead rule · 16.7:1 */
+  --quiet: #6f6c66;   /* standfirsts, captions, documentation, axes · 4.9:1 */
+  --band:  #e7e6e0;   /* normal-range field behind a trace. Selection. */
+
+  --signal:  #b0221b; /* the value under discussion, links, access flags · 6.4:1 */
+  --counter: #2c6fbb; /* the thing compared against: prior period, low mark · 4.6:1 */
+
+  --signal-hover: #8c1a15;
+
+  /* -- three weights of line, no boxes (§03) ------------------------------ */
+  --spine: 1.5px;              /* masthead rule, table header. Two per page. */
+  --rule: rgba(0, 0, 0, .15);  /* section divider, documentation divider, spine */
+  --hair: rgba(0, 0, 0, .06);  /* row separator. A whisper. */
+  --grid: rgba(0, 0, 0, .08);  /* chart gridlines, horizontal only, four at most */
+
+  /* -- type: the serif reads, the sans measures (§02) --------------------- */
+  --serif: "Iowan Old Style", "Palatino Linotype", Palatino, Georgia, serif;
+  --sans: Inter, "Helvetica Neue", system-ui, -apple-system, "Segoe UI", sans-serif;
+  --mono: ui-monospace, "SF Mono", Menlo, monospace;
+
+  /* -- measure and rhythm (§03) ------------------------------------------ */
+  --page: 1080px;      /* page frame */
+  --measure: 40rem;    /* preferred prose measure */
+  --measure-max: 46rem;/* hard cap */
+  --lead-aside: 420px; /* the lead exhibit column */
+
+  --s1: 6px;  --s2: 10px; --s3: 14px; --s4: 18px; --s5: 22px;
+  --s6: 30px; --s7: 34px; --s8: 44px; --s9: 56px;
+
+  --radius: 0;         /* everywhere. The one exception is a data point. */
+}

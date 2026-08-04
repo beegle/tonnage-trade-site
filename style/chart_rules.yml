@@ -1,0 +1,167 @@
+schema_version: 1
+owner: Tonnage & Trade editorial
+canonical_guide: ../.claude/skills/visual-style/SKILL.md
+
+# This file is CANONICAL for every enumerable list below — required fields, prohibited chart types,
+# the selection matrix, tier metadata, export presets, HTML requirements. The guide explains why;
+# this file is the list. Change it here.
+
+required_spec_fields:
+  - schema_version
+  - question
+  - finding
+  - chart_type
+  - analytical_task
+  - integrity_tier
+  - source
+  - as_of
+  - period
+  - units
+  - series
+  - scale
+  - missing_values
+  - uncertainty
+  - direct_labels
+  - alt_text
+  - export_target
+  - exceptions
+
+source_required_fields: [name, location]
+period_required_fields: [start, end]
+series_required_fields: [name, evidence_class]
+scale_required_fields: [type, shared, zero_baseline]
+export_required_fields: [kind, width, height, device_scale_factor]
+evidence_classes: [observed, calculated, estimated, provisional, inference, speculation]
+
+prohibited_without_exception:
+  - pie
+  - donut
+  - 3d
+  - stoplight
+  - dual_axis
+  - single_number_bar
+
+selection:
+  time_change:
+    default: [line, sparkline]
+    requirements: [time_on_x, shared_scale, visible_gaps]
+  current_in_history:
+    default: [number_with_sparkline, number_with_range]
+    requirements: [current, start, min, max, period]
+  category_comparison:
+    default: [table, dot_plot, bar]
+    requirements: [substantive_order]
+  relationship:
+    default: [scatter]
+    requirements: [x_units, y_units, sample_size]
+  distribution:
+    default: [ecdf, histogram, dot_plot, box_plot]
+    requirements: [sample_size, documented_bins_or_quantiles]
+  many_time_series:
+    default: [small_multiples]
+    requirements: [shared_scale, shared_aspect_ratio]
+  exact_lookup:
+    default: [table]
+    requirements: [units, aligned_decimals, substantive_order]
+  single_value:
+    default: [typeset_number]
+    requirements: [unit, date, source, comparison]
+
+integrity_tiers:
+  public_analysis:
+    required_metadata:
+      - source
+      - data_location
+      - grain
+      - as_of
+      - period
+      - units
+      - sample_size
+      - display_universe
+      - maker
+      - evidence_class
+      - selection_status
+      - uncertainty
+  operational:
+    required_metadata: [source, as_of, period, units, refresh_status, evidence_class, owner]
+  context:
+    required_metadata: [source, period, units, alt_text]
+
+# Semantics for the two metadata fields that are routinely faked. Both are integrity controls, not
+# labels: omitting them lets a cherry-picked display pass every other check in this file.
+metadata_field_rules:
+  display_universe:
+    format: showing <K> of <N> <unit>
+    requires_cut_rule_when: K < N
+    why: >-
+      N is how many units met the stated selection criterion; K is how many the display shows.
+      Reporting only the n of the rows shown gives the reader a numerator and hides the denominator.
+      Any threshold, rank filter, LIMIT, or "top / busiest / worst" framing requires this line, and
+      when K < N the rule that cut N to K belongs in the box — an unwritten editorial choice is not a
+      method.
+  selection_status:
+    allowed: [pre_specified, exploratory]
+    pre_specified_requires: [plan_path, plan_sha]
+    why: >-
+      A plan that exists only inside a working session is not pre-specification. Without a committed
+      path and SHA the display is exploratory, and the Interocular Trauma Test becomes required rather
+      than recommended.
+
+semantic_tokens:
+  data: --ink
+  current: --signal-current
+  selected: --signal-selected
+  negative: --signal-negative
+  positive: --signal-positive
+  secondary: --signal-secondary
+  low: --signal-low
+  high: --signal-high
+  grid: --grid
+  normal_band: --band
+
+edge_cases:
+  missing_values: preserve gaps or identify imputation method
+  negative_values: show zero reference
+  bars: zero baseline required
+  log_scale: positive values and multiplicative interpretation required
+  small_sample: print n and show observations when practical
+  uncertainty: identify measurement, model, or sampling uncertainty
+  revisions: label provisional values and vintage
+  long_labels: wrap on meaning; do not abbreviate without explanation
+  font_export: embed font or use documented fallback
+
+export_presets:
+  linkedin_landscape:
+    width: 2400
+    height: 1256
+    tolerance_px: 0
+  linkedin_square:
+    width: 2160
+    height: 2160
+    tolerance_px: 0
+  linkedin_portrait:
+    width: 2160
+    height: 2700
+    tolerance_px: 0
+  linkedin_document:
+    width: 1920
+    height: 1080
+    tolerance_px: 0
+
+qa_viewports:
+  desktop: {width: 1440, height: 1000, device_scale_factor: 2}
+  mobile: {width: 390, height: 844, device_scale_factor: 2}
+
+html_requirements:
+  required_tokens:
+    - --paper
+    - --ink
+    - --ink-quiet
+    - --grid
+  chart_metadata_attributes:
+    - data-source
+    - data-as-of
+    - data-period
+    - data-units
+  require_accessible_chart_name: true
+  require_docbox_for_public_analysis: true

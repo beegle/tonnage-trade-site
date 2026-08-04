@@ -1,0 +1,157 @@
+{
+  "slug": "river-note-2026-06-27",
+  "kind": "river_note",
+  "title": "The rate eased for a second week; Marseilles is still the binding lock",
+  "standfirst": "The system average is down about 2% to $13.46 a ton, corn export demand holds firm, and the forward read is withheld as too stale to publish.",
+  "byline": "Ken Beegle",
+  "min_tier": "free",
+  "as_of": "2026-06-23",
+  "published_at": "2026-06-27",
+  "featured": true,
+  "tags": ["Rates", "River conditions", "Grain"],
+  "meta_description": "Weekly nowcast of U.S. inland barge rate pressure, lock constraints, and grain export demand.",
+
+  "ledger_finding": "Rate pressure eased to $13.46 a ton, about 2% off the prior week, with Marseilles still the binding lock.",
+  "ledger_evidence": "Rate nowcast, USDA FAS · modeled + observed",
+
+  "lead": {
+    "paragraphs": [
+      "The system-average modeled rate slipped to <strong>$13.46</strong> a ton in the rate-week ending June 23, 2026, from <strong>$13.76</strong> the week before — about <strong>2%</strong> lower — and the average pressure index fell from <strong>40.2</strong> to <strong>36.1</strong>. That is an elevated market cooling at the margin, not a break.",
+      "The Illinois system stays the tightest corridor and Marseilles stays the binding lock, at <strong>13.2</strong> hours average wait on June 26. The forward read is withheld this week: the forward leg's newest snapshot was <strong>25</strong> days old at publication, past the freshness line. <a href=\"/river-notes/river-note-2026-06-27.html\">Read the note</a>."
+    ],
+    "exhibit": {
+      "id": "2026-06-27-F1",
+      "type": "line",
+      "size": "lead",
+      "labels": ["", "", "", "", "", ""],
+      "point_labels": ["Six rate-weeks ago", "", "", "", "", "Jun 23"],
+      "series": [
+        {
+          "label": "System-average modeled rate",
+          "role": "subject",
+          "data": [12.90, 13.20, 13.60, 13.90, 13.76, 13.46]
+        }
+      ],
+      "value_label": "US$ per ton",
+      "value_format": "$%.2f",
+      "aria_label": "Line: the system-average modeled barge rate rose from $12.90 to a $13.90 peak a ton, then eased for two weeks to $13.46 a ton in the rate-week ending June 23, 2026.",
+      "caption": "<strong>The rate peaked two rate-weeks ago and has eased in each week since.</strong> System-average modeled rate across 26 tracked river segments, US$ per ton, six rate-weeks to June 23, 2026. Value axis runs from zero; the printed values carry the precision the trace compresses.",
+      "docbox": {
+        "Source": "Rate nowcast mart, Tonnage & Trade data lake",
+        "Grain": "One row per river segment per rate-week",
+        "Showing": "System average of 26 tracked segments, all 26 shown",
+        "Period": "Six rate-weeks to June 23, 2026",
+        "n": "26 segments",
+        "Units": "US$ per ton",
+        "Evidence class": "Modeled from observed inputs",
+        "Uncertainty": "Model out-of-sample MAE $5.27 per ton; $9.44 per ton in drought conditions",
+        "Built by": "Ken Beegle",
+        "Pre-specified": "No — exploratory"
+      }
+    }
+  },
+
+  "sections": [
+    {
+      "kind": "prose",
+      "html": "<p>Rate pressure is easing at the margin. The system-average modeled rate slipped to <strong>$13.46/ton</strong> (from $13.76, about 2% below the prior week) and the average pressure index fell 40.2 → 36.1 — an elevated-but-cooling market, not a break.</p><p>The Illinois system stays the tightest corridor, Marseilles is the binding chokepoint, and corn is the demand engine. The forward read is withheld this week: the forward leg's newest snapshot is 25 days old, past the freshness line.</p>"
+    },
+    {
+      "kind": "key_figure",
+      "label": "System-average modeled rate",
+      "value": "$13.46",
+      "unit": "per ton",
+      "change": "↓ $0.30 vs. last week (about −2%)",
+      "change_dir": "negative",
+      "spark": [12.90, 13.20, 13.60, 13.90, 13.76, 13.46],
+      "spark_label": "Sparkline: the system-average modeled rate rising from $12.90 to $13.90 a ton, then easing to $13.46 a ton.",
+      "spark_caption": "<strong>Rate, US$/ton.</strong> $12.90 → $13.46. Six rate-weeks to June 23, 2026.",
+      "context": "Pressure index 40.2 → 36.1. Across 26 tracked river segments, modeled rates span $5.62 to $26.51 per ton.",
+      "source_line": "Rate nowcast mart, rate-week ending June 23, 2026",
+      "as_of": "2026-06-23"
+    },
+    {
+      "kind": "supertable",
+      "caption": "<strong>The three tightest segments all eased by about the same amount.</strong> Modeled rate and change vs. the prior week, Illinois system, rate-week ending June 23, 2026.",
+      "columns": [
+        { "label": "Segment (Illinois system)", "numeric": false },
+        { "label": "US$ per ton", "numeric": true },
+        { "label": "Change vs. last week", "numeric": true },
+        { "label": "Pressure index", "numeric": true }
+      ],
+      "rows": [
+        ["Chicago", "$20.94", "↓ $0.39", "37 (was 40)"],
+        ["Lockport–Lemont", "$19.23", "↓ $0.36", "37 (was 40)"],
+        ["Seneca–Joliet", "$18.98", "↓ $0.35", "37 (was 40)"]
+      ],
+      "docbox": {
+        "Source": "Rate nowcast mart, Tonnage & Trade data lake",
+        "Grain": "One row per river segment per rate-week",
+        "Showing": "3 of 26 tracked segments — the three highest modeled rates in the rate-week",
+        "Period": "Rate-week ending June 23, 2026",
+        "n": "26 segments",
+        "Units": "US$ per ton; pressure index is unitless",
+        "Evidence class": "Modeled from observed inputs",
+        "Uncertainty": "Model out-of-sample MAE $5.27 per ton",
+        "Built by": "Ken Beegle",
+        "Pre-specified": "No — exploratory"
+      },
+      "as_of": "2026-06-23"
+    },
+    {
+      "kind": "prose",
+      "html": "<h2>Marseilles is the lock that binds</h2><p>Lock friction is concentrated at <strong>Marseilles</strong> on the Illinois River. The most recent reading is June 26, 2026: <strong>14</strong> tows and a <strong>13.2</strong> hour average wait — the queue building even as the per-tow wait came down from <strong>18.4</strong> hours on June 21. Twenty of the twenty reviewed lock-days in the window are flagged as constraints.</p><p>The 10-day forecast points the low-water watch at the three upper-basin gauges with the lowest forward flows: USGS gauge <code>05331000</code> at 10.4 thousand cubic feet per second and a 3.5 foot stage, <code>05420500</code> at 52.2 and 9.3 feet, and <code>06893000</code> at 62.7 and 13.7 feet.</p>"
+    },
+    {
+      "kind": "supertable",
+      "caption": "<strong>Corn carries the export book.</strong> USDA Foreign Agricultural Service weekly export sales, week ending June 11, 2026.",
+      "columns": [
+        { "label": "Commodity", "numeric": false },
+        { "label": "Weekly exports (MMT)", "numeric": true },
+        { "label": "Outstanding (MMT)", "numeric": true }
+      ],
+      "rows": [
+        ["Corn", "5.5", "55.1"],
+        ["All grains", "12.2", "—"]
+      ],
+      "docbox": {
+        "Source": "USDA Foreign Agricultural Service (FAS) weekly export sales",
+        "Grain": "One row per commodity per report week",
+        "Showing": "2 of 2 rows carried in the note — corn and the all-grains total",
+        "Period": "Week ending June 11, 2026",
+        "n": "1 report week",
+        "Units": "Million metric tons (MMT)",
+        "Evidence class": "Observed",
+        "Uncertainty": "USDA revises prior weeks; figures are as first reported",
+        "Built by": "Ken Beegle",
+        "Pre-specified": "No — exploratory"
+      },
+      "as_of": "2026-06-11"
+    },
+    {
+      "kind": "watch_list",
+      "title": "Bottom line — what to watch into next week",
+      "items": [
+        { "when": "Next week", "claim": "Marseilles remains the throughput bottleneck", "basis": "14 tows and a 13.2 hour wait on June 26; 20 of 20 lock-days flagged" },
+        { "when": "10-day", "claim": "Draft risk builds on the three listed upper-basin gauges", "basis": "Lowest forward flows in the forecast set" },
+        { "when": "Rate feed", "claim": "A re-tightening signal needs a fresh forward snapshot", "basis": "Forward leg 25 days stale at publication; directional only" }
+      ]
+    },
+    {
+      "kind": "docbox",
+      "fields": {
+        "Source": "Rate nowcast mart and lock queue feed, Tonnage & Trade data lake; USDA FAS weekly export sales",
+        "Grain": "One row per river segment per rate-week; one row per lock per day",
+        "Showing": "26 of 26 tracked segments; 20 of 20 reviewed lock-days",
+        "Period": "Rates as of June 23, 2026; river conditions through June 26, 2026; grain demand through June 11, 2026",
+        "n": "38 segments and 17,586 rows in the fitted model",
+        "Units": "US$ per ton; hours; million metric tons",
+        "Evidence class": "Rates modeled; lock waits and export sales observed",
+        "Uncertainty": "Fuel model, out-of-sample MAE $5.27 per ton, rising to $9.44 per ton in drought conditions",
+        "Built by": "Ken Beegle",
+        "Pre-specified": "No — exploratory"
+      },
+      "as_of": "2026-06-27"
+    }
+  ]
+}

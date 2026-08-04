@@ -1,0 +1,43 @@
+{
+  "name": "Tonnage & Trade",
+  "scope": "Inland & coastwise markets",
+  "description": "Analysis of the U.S. inland barge market — rates, river conditions, lock constraints and the equipment fleets behind them. Every figure is dated and sourced.",
+  "base_url": "",
+  "byline_default": "Ken Beegle",
+
+  "_release_id_note": "The folio states the data-lake release each page was built against. Set this from get_release_status before publishing; while it is null the folio prints the date alone rather than an unverified id.",
+  "release_id": null,
+
+  "nav": [
+    { "label": "Analyses",   "href": "/analysis/" },
+    { "label": "River Note", "href": "/river-notes/" },
+    { "label": "Data",       "href": "/data/" },
+    { "label": "Method",     "href": "/method/" },
+    { "label": "Subscribe",  "href": "/subscribe/", "signal": true }
+  ],
+
+  "footer_nav": [
+    { "label": "River Notes",     "href": "/river-notes/" },
+    { "label": "Special Reports", "href": "/reports/" },
+    { "label": "Analysis",        "href": "/analysis/" },
+    { "label": "Notes",           "href": "/notes/" },
+    { "label": "Topics",          "href": "/topics/" },
+    { "label": "Feed",            "href": "/feed.xml" }
+  ],
+
+  "kinds": {
+    "river_note":     { "label": "River Note",     "plural": "River Notes",     "path": "river-notes" },
+    "special_report": { "label": "Special Report", "plural": "Special Reports", "path": "reports" },
+    "analysis":       { "label": "Analysis",       "plural": "Analysis",        "path": "analysis" },
+    "note":           { "label": "Note",           "plural": "Notes",           "path": "notes" }
+  },
+
+  "tiers": {
+    "free":       { "level": 0, "label": "Free" },
+    "entry":      { "level": 1, "label": "Subscriber" },
+    "pro":        { "level": 2, "label": "Subscriber" },
+    "enterprise": { "level": 3, "label": "Enterprise" }
+  },
+
+  "public_tier": "free"
+}

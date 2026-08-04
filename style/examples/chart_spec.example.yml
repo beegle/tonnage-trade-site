@@ -1,0 +1,58 @@
+schema_version: 1
+question: Did Lower Mississippi barge rates exceed their 2022 peak?
+finding: Lower Mississippi barge rates now exceed the 2022 peak by $1.14 per ton.
+chart_type: line
+analytical_task: time_change
+integrity_tier: public_analysis
+source:
+  name: USDA Agricultural Marketing Service
+  location: marts.mart_example_rate_history
+  url: null
+as_of: 2026-07-10
+period:
+  start: 2020-01-01
+  end: 2026-07-10
+units: USD per ton
+series:
+  - name: Observed Lower Mississippi rate
+    evidence_class: observed
+scale:
+  type: linear
+  shared: true
+  zero_baseline: false
+missing_values:
+  present: true
+  treatment: preserve_gaps
+uncertainty:
+  kind: none
+  display: none
+direct_labels: true
+alt_text: >-
+  Lower Mississippi barge rates rose above their 2022 peak by $1.14 per ton as of July 10, 2026;
+  the line preserves two missing weekly observations as gaps.
+export_target:
+  kind: web
+  width: 1200
+  height: 700
+  device_scale_factor: 2
+metadata:
+  data_location: marts.mart_example_rate_history
+  grain: one row per rate segment per week
+  sample_size: 338
+  # Display universe: N met the selection criterion, K is what the chart shows. Required for
+  # public_analysis. When shown < qualifying, cut_rule is mandatory — see chart_rules.yml ->
+  # metadata_field_rules.display_universe.
+  display_universe:
+    qualifying: 10
+    shown: 10
+    unit: lower-river rate segments
+    cut_rule: null
+  maker: K. Beegle
+  evidence_class: observed
+  # pre_specified requires BOTH a committed plan path and its SHA. Without them this must read
+  # `exploratory`, and the Interocular Trauma Test becomes required rather than recommended.
+  selection_status: pre_specified
+  plan_path: articles/reports/drafts/q3-plan.md
+  plan_sha: a1b2c3d
+  uncertainty: none reported by source
+exceptions: []

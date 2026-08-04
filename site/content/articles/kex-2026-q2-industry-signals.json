@@ -1,0 +1,131 @@
+{
+  "slug": "kex-2026-q2-industry-signals",
+  "kind": "special_report",
+  "title": "Kirby Q2 2026 — Industry Signals from Marine, Power, Repair & Oilfield Markets",
+  "standfirst": "Kirby's July 29 print can show where scarce equipment earns more — and where high utilization fails to lift rates.",
+  "byline": "Ken Beegle",
+  "min_tier": "pro",
+  "as_of": "2026-07-10",
+  "published_at": "2026-07-10",
+  "featured": false,
+  "tags": ["Kirby (KEX)", "Rates"],
+  "meta_description": "What Kirby's Q2 2026 report can reveal about pricing, utilization, and usable capacity across marine and industrial equipment markets.",
+
+  "ledger_finding": "Inland tank-barge utilization has held between 90 and 94 percent for seven quarters; the Q2 print tests whether rate still follows it.",
+  "ledger_evidence": "Company filings · observed + estimate",
+
+  "sections": [
+    {
+      "kind": "prose",
+      "html": "<p>Read Kirby's July 29 report for one relationship above all: where scarce equipment earns more, and where high utilization has stopped translating into price. Inland tank-barge utilization has sat between <strong>90</strong> and <strong>94</strong> percent across all seven observed quarters from Q1 2024 to Q1 2026; the question for Q2 2026 is whether pricing is still following it up, or whether the rate curve has flattened while boats stayed full.</p>"
+    },
+    {
+      "kind": "key_figure",
+      "width": "wide",
+      "label": "Inland tank-barge utilization",
+      "value": "92",
+      "unit": "percent, Q1 2026",
+      "change": "Between 90 and 94 percent across all seven observed quarters",
+      "change_dir": "",
+      "spark": [90, 91, 92, 93, 94, 92, 92],
+      "spark_label": "Sparkline: inland tank-barge utilization between 90 and 94 percent across the seven observed quarters to Q1 2026.",
+      "spark_caption": "<strong>Utilization, percent.</strong> 90 → 92, the seven observed quarters from Q1 2024 to Q1 2026. Q3 and Q4 2025 are absent from the series.",
+      "context": "Utilization this high usually lifts rates. Watch whether Q2 pricing commentary confirms it — or breaks the link.",
+      "source_line": "Company filings, through the last filed quarter (Q1 2026)",
+      "as_of": "2026-07-10"
+    },
+    {
+      "kind": "exhibit",
+      "width": "wide",
+      "exhibit": {
+        "id": "2026-07-10-F1",
+        "type": "line",
+        "size": "full",
+        "labels": ["Q1'24", "", "Q3'24", "", "Q1'25", "", "Q3'25", "", "Q1'26", "Q2'26E"],
+        "series": [
+          {
+            "label": "Inland utilization",
+            "role": "subject",
+            "data": [90, 91, 92, 93, 94, 92, null, null, 92, 93],
+            "estimated_from": 8
+          }
+        ],
+        "value_label": "Utilization, percent",
+        "value_format": "%.0f%%",
+        "value_max": 100,
+        "aria_label": "Line: Kirby inland tank-barge utilization between 90 and 94 percent across the seven observed quarters from Q1 2024 to Q1 2026, with Q3 and Q4 2025 missing from the series and Q2 2026 estimated at 93 percent.",
+        "caption": "<strong>Utilization has held between 90 and 94 percent for seven quarters; the Q2 read is whether rate still follows it.</strong> Kirby inland tank-barge utilization, percent, Q1 2024 through Q1 2026 observed, Q2 2026 estimated. Q3 and Q4 2025 are not carried in the series, and the trace breaks across them rather than bridging the gap. The dashed final segment and open endpoint mark the estimate. Value axis runs the full 0–100% range of the measure.",
+        "docbox": {
+          "Source": "Company filings (Kirby Corporation quarterly reports)",
+          "Grain": "One observation per fiscal quarter",
+          "Showing": "8 of 10 quarters in the period — Q3 and Q4 2025 are absent from the source series and are drawn as a gap",
+          "Period": "Q1 2024 through Q2 2026",
+          "n": "7 observed quarters, 1 estimated, 2 missing",
+          "Units": "Percent utilization",
+          "Evidence class": "Observed through Q1 2026; Q2 2026 estimated",
+          "Uncertainty": "Not stated by the source; the estimate carries no published interval",
+          "Built by": "Ken Beegle",
+          "Pre-specified": "No — exploratory"
+        }
+      }
+    },
+    {
+      "kind": "pull_quote",
+      "text": "High utilization is necessary for pricing power, not sufficient. The tell is whether full boats are still winning rate.",
+      "cite": "Reading the Q2 print"
+    },
+    {
+      "kind": "supertable",
+      "caption": "<strong>Four segments, four different tells.</strong> What to read in Kirby's Q2 2026 print, and the reading that would support the bullish case in each.",
+      "columns": [
+        { "label": "Segment", "numeric": false },
+        { "label": "Signal to read", "numeric": false },
+        { "label": "Bullish tell", "numeric": false }
+      ],
+      "rows": [
+        ["Inland marine", "Utilization vs. term-rate delta", "Rates rising with utilization flat"],
+        ["Coastal marine", "Available capacity and retirements", "Fewer usable barges, firmer leading edge"],
+        ["Power generation (distribution and services)", "Backlog and lead times", "Lead times extending"],
+        ["Oilfield and repair", "Pricing on scarce equipment", "Scarcity earning a premium"]
+      ],
+      "docbox": {
+        "Source": "Framework for the July 29, 2026 report; segments as the company reports them",
+        "Grain": "One row per reported segment",
+        "Showing": "4 of 4 reported segments",
+        "Period": "Q2 2026 print, expected July 29, 2026",
+        "n": "4 segments",
+        "Units": "Not applicable — this table carries no measured quantity",
+        "Evidence class": "Inference — a reading framework, not an observation",
+        "Uncertainty": "Not applicable",
+        "Built by": "Ken Beegle",
+        "Pre-specified": "Yes — published July 10, 2026, before the July 29 print"
+      },
+      "as_of": "2026-07-10"
+    },
+    {
+      "kind": "watch_list",
+      "title": "Falsifiable calls for the July 29 print",
+      "items": [
+        { "when": "By Jul 29", "claim": "Inland marine revenue up quarter-on-quarter", "basis": "Utilization and term-rate commentary" },
+        { "when": "By Jul 29", "claim": "Coastal usable capacity flat to down", "basis": "Retirements outpacing reactivations" },
+        { "when": "H2 2026", "claim": "Power-generation backlog lead times extend further", "basis": "Grid and data-centre demand" }
+      ]
+    },
+    {
+      "kind": "docbox",
+      "fields": {
+        "Source": "Company filings (Kirby Corporation quarterly reports); framework and estimates by Ken Beegle",
+        "Grain": "One observation per fiscal quarter; one row per reported segment",
+        "Showing": "8 of 8 quarters; 4 of 4 reported segments",
+        "Period": "Q1 2024 through the Q2 2026 print expected July 29, 2026",
+        "n": "7 observed quarters, 1 estimated",
+        "Units": "Percent utilization",
+        "Evidence class": "Company results observed through the last filed quarter; figures marked estimate are pre-print",
+        "Uncertainty": "The pre-print estimate carries no published interval",
+        "Built by": "Ken Beegle",
+        "Pre-specified": "Yes — the calls above were published July 10, 2026, before the print"
+      },
+      "as_of": "2026-07-10"
+    }
+  ]
+}

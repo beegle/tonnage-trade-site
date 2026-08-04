@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" role="img" aria-label="Tonnage &amp; Trade">
+  <rect width="32" height="32" fill="#fcfbf9"/>
+  <rect x="4" y="6" width="24" height="2" fill="#1b1b1a"/>
+  <polyline fill="none" stroke="#1b1b1a" stroke-width="2" stroke-linejoin="round"
+            points="4,24 10,22 16,23 22,18 27,12"/>
+  <circle cx="27" cy="12" r="3" fill="#b0221b"/>
+</svg>

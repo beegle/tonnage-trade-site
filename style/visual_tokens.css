@@ -1,0 +1,36 @@
+:root {
+  color-scheme: light;
+
+  --paper: #fcfbf9;
+  --ink: #1b1b1a;
+  --ink-quiet: #6f6c66;
+  --rule: rgba(0, 0, 0, 0.15);
+  --hair: rgba(0, 0, 0, 0.06);
+  --grid: rgba(0, 0, 0, 0.08);
+  --band: #e7e6e0;
+  --accent: #b0221b;
+  --accent-2: #2c6fbb;
+
+  --signal-current: var(--accent);
+  --signal-selected: var(--accent);
+  --signal-negative: var(--accent);
+  --signal-positive: var(--accent-2);
+  --signal-secondary: var(--accent-2);
+  --signal-low: var(--accent-2);
+  --signal-high: var(--accent);
+
+  --font-serif: "Iowan Old Style", "Palatino Linotype", Palatino, Georgia, serif;
+  --font-data: Inter, "Helvetica Neue", system-ui, -apple-system, "Segoe UI", sans-serif;
+  --font-num: Inter, ui-monospace, "SF Mono", monospace;
+
+  --content-width: 72rem;
+  --reading-width: 46rem;
+  --space-1: 0.25rem;
+  --space-2: 0.5rem;
+  --space-3: 0.75rem;
+  --space-4: 1rem;
+  --space-6: 1.5rem;
+  --space-8: 2rem;
+  --chart-line: 1.25px;
+  --export-chart-line: 2px;
+}

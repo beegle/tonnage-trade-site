@@ -1,0 +1,74 @@
+/* INLINE THIS — do not link it. A published report is one self-contained file, so an external
+   stylesheet reaches the reader unstyled. Copy the rules you need into a <style> block, together
+   with the tokens from visual_tokens.css (this file deliberately does not @import them, because
+   an @import cannot resolve once inlined). */
+
+*, *::before, *::after { box-sizing: border-box; }
+
+html { background: var(--paper); color: var(--ink); }
+body {
+  margin: 0 auto;
+  max-width: var(--content-width);
+  padding: var(--space-8);
+  font-family: var(--font-serif);
+  line-height: 1.55;
+}
+
+.reading-column { max-width: var(--reading-width); }
+.num, .label, table, svg text {
+  font-family: var(--font-data);
+  font-variant-numeric: tabular-nums lining-nums;
+}
+
+.chart-shell {
+  margin-block: var(--space-8);
+  max-width: 100%;
+}
+.chart-shell > h2 { margin: 0 0 var(--space-3); }
+.chart-shell svg, .chart-shell canvas { display: block; max-width: 100%; }
+.chart-shell [data-role="annotation"] { color: var(--ink-quiet); }
+
+.docbox {
+  border-top: 1px solid var(--rule);
+  color: var(--ink-quiet);
+  font-family: var(--font-data);
+  font-size: 0.72rem;
+  line-height: 1.4;
+  margin-top: var(--space-2);
+  padding-top: var(--space-2);
+}
+
+.supertable {
+  border-collapse: collapse;
+  font-variant-numeric: tabular-nums lining-nums;
+  width: 100%;
+}
+.supertable th {
+  border-bottom: 1.5px solid var(--ink);
+  font-weight: 600;
+  padding: var(--space-1) var(--space-3);
+  text-align: right;
+}
+.supertable td {
+  border: 0;
+  padding: 0.18rem var(--space-3);
+  text-align: right;
+}
+.supertable td.name, .supertable th.name { text-align: left; }
+.supertable tr + tr td { border-top: 1px solid var(--hair); }
+.supertable .positive { color: var(--signal-positive); }
+.supertable .negative { color: var(--signal-negative); }
+
+.value { font-family: var(--font-data); font-size: 1rem; font-weight: 600; }
+.error { color: var(--ink-quiet); font-family: var(--font-data); font-size: 0.72rem; }
+
+@media (max-width: 700px) {
+  body { padding: var(--space-4); }
+  .chart-shell { overflow-x: auto; }
+  .supertable { font-size: 0.88rem; }
+}
+
+@media print {
+  body { max-width: none; padding: 0; }
+  .chart-shell { break-inside: avoid; }
+}

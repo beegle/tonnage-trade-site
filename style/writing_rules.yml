@@ -1,0 +1,169 @@
+schema_version: 1
+owner: Tonnage & Trade editorial
+canonical_guide: writing_style.md
+
+# This file is CANONICAL for every enumerable list below — banned openers, AI tells, measurable
+# adjectives, terminology, deliverable sequences. The guide explains why and shows examples; this file
+# is the list. Add or remove a term here, not there.
+
+default_editorial_voice:
+  name: Ogilvy-inspired factual persuasion
+  scope: all_reports
+  purpose: Make sourced evidence memorable and decision-useful without promotional language.
+  principles:
+    reader_benefit: State the decision, risk, or opportunity the evidence will clarify.
+    information_first: Lead with the most arresting supported fact, not an abstract topic.
+    reason_why: Follow a claim with its proof and explain why the proof changes the decision.
+    specificity: Prefer named entities, dates, amounts, rates, and contrasts to hype.
+    reader_respect: Address one intelligent reader and preserve uncertainty.
+    earned_length: Keep long copy only while each paragraph adds proof, explanation, or decision value.
+    action_close: End with what the reader should record, compare, ask, approve, reject, or watch.
+  drafting:
+    private_title_candidates_minimum: 10
+    select_title_for: [specificity, reader_value, supportability, plain_language]
+    major_section_sequence: [reader_relevant_headline, evidence, reason_why, decision_implication, disproof_or_caveat]
+  guardrails:
+    - Apply principles rather than imitating David Ogilvy's wording, syntax, quotations, or period mannerisms.
+    - Treat benefit as decision usefulness, not a promotional claim.
+    - Never enlarge a promise beyond the available evidence.
+
+publication_blockers:
+  literal_markers:
+    - "[UNSOURCED — do not publish]"
+    - "[UNSOURCED - do not publish]"
+  number_without_provenance: manual_review
+
+banned_openers:
+  - it is worth noting that
+  - it is important to note
+  - it should be noted that
+  - this report examines
+  - this report will explore
+  - this report aims to
+  - this section examines
+  - this section will explore
+  - this analysis examines
+  - this analysis will explore
+  - in today's fast-paced
+  - in today's ever-changing
+  - needless to say
+  - it goes without saying
+  - at the end of the day
+
+ai_tells:
+  words:
+    - delve
+    - tapestry
+    - realm
+    - navigate
+    - underscore
+    - showcase
+    - foster
+  phrases:
+    - testament to
+    - may potentially
+    - could possibly
+    - it seems likely that perhaps
+  patterns:
+    - "not just X, it is Y"
+    - "not just X, but Y"
+
+measurable_adjectives:
+  review_when_near_numberless_claim:
+    - strong
+    - weak
+    - robust
+    - significant
+    - substantial
+    - meaningful
+    - considerable
+    - healthy
+    - concerning
+    - notable
+    - dramatic
+    - massive
+    - huge
+    - sharp
+    - solid
+  exceptions:
+    - quotation
+    - proper_name
+    - quantity_in_same_sentence
+    - non_measurable_usage
+
+uncertainty:
+  evidence_classes:
+    observed: Directly measured or reported by a named source.
+    calculated: Deterministic arithmetic from observed inputs.
+    estimated: Model output or imputation; method and as-of date required.
+    provisional: Published value the source may revise.
+    inference: Interpretation supported but not directly measured.
+    speculation: Plausible explanation without adequate confirming evidence.
+  draft_markers:
+    estimate: "[ESTIMATE — method: <method>; as of: <date>]"
+    provisional: "[PROVISIONAL — source may revise]"
+    inconclusive: "[INCONCLUSIVE — evidence does not distinguish between <A> and <B>]"
+
+terminology:
+  reaches:
+    preferred: river segments
+    scope: reader_facing
+    exceptions:
+      - source citation
+      - schema name
+      - code identifier
+  nowcast:
+    preferred: estimate of barge rates from river levels, season and fuel
+    scope: reader_facing
+    exceptions:
+      - schema name
+      - code identifier
+  WoW:
+    preferred: Change vs. last week
+    scope: table_header
+  significant:
+    preferred: state the measured effect and statistical definition
+    scope: quantitative_claim
+
+citations:
+  quantitative_claim_requires:
+    - source
+    - period_or_as_of
+  chart_caption_requires:
+    - finding
+    - units
+    - period
+    - source
+    - as_of
+  estimate_requires:
+    - method
+    - as_of
+
+deliverables:
+  market_analysis:
+    sequence: [finding, evidence, interpretation, counterargument_or_caveat, takeaway]
+    requires_counterargument: true
+  weekly_river_note:
+    sequence: [subject_finding, weekly_changes, implications, bottom_line]
+    requires_gate_verdict: true
+  chart_caption:
+    sequence: [finding, period_and_unit, source_and_as_of]
+    max_sentences: 2
+  readme:
+    sequence: [purpose, use, constraints, verification]
+  commit:
+    sequence: [imperative_consequence]
+    requires_counterargument: false
+    max_subject_characters: 72
+  pull_request:
+    sequence: [outcome, motivation, validation, risks_or_tradeoffs]
+
+formatting:
+  rate_table:
+    currency_prefix: "$"
+    change_heading: Change vs. last week
+  gauges:
+    pattern: "<plain-English location> (<agency> <site ID>) — <reading> <unit> <measure>"
+  figures:
+    require_as_of: true
+    require_panel_source: true

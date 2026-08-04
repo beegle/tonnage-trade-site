@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Tonnage &amp; Trade</title>
+  <subtitle>Inland &amp; coastwise markets</subtitle>
+  <link href="/feed.xml" rel="self"/>
+  <link href="/"/>
+  <id>/</id>
+  <updated>2026-07-10T12:00:00Z</updated>
+  <entry>
+    <title>Kirby Q2 2026 — Industry Signals from Marine, Power, Repair &amp; Oilfield Markets</title>
+    <link href="/reports/kex-2026-q2-industry-signals.html"/>
+    <id>/reports/kex-2026-q2-industry-signals.html</id>
+    <updated>2026-07-10T12:00:00Z</updated>
+    <author><name>Ken Beegle</name></author>
+    <summary>Kirby&#x27;s July 29 print can show where scarce equipment earns more — and where high utilization fails to lift rates.</summary>
+  </entry>
+  <entry>
+    <title>The rate eased for a second week; Marseilles is still the binding lock</title>
+    <link href="/river-notes/river-note-2026-06-27.html"/>
+    <id>/river-notes/river-note-2026-06-27.html</id>
+    <updated>2026-06-27T12:00:00Z</updated>
+    <author><name>Ken Beegle</name></author>
+    <summary>The system average is down about 2% to $13.46 a ton, corn export demand holds firm, and the forward read is withheld as too stale to publish.</summary>
+  </entry>
+</feed>

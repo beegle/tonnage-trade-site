@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Lower Mississippi rates exceed the 2022 peak</title>
+  <!-- Self-contained: tokens and component styles are inlined, never linked. A published report is
+       shared as one file, so an external stylesheet would reach the reader unstyled. Copy the values
+       you need from ../visual_tokens.css and ../components.css; do not fork them into new ones. -->
+  <style>
+    :root{
+      --paper:#fcfbf9; --ink:#1b1b1a; --ink-quiet:#6f6c66;
+      --rule:rgba(0,0,0,.15); --grid:rgba(0,0,0,.08);
+      --accent:#b0221b; --signal-current:var(--accent);
+      --font-serif:"Iowan Old Style","Palatino Linotype",Palatino,Georgia,serif;
+      --font-data:Inter,"Helvetica Neue",system-ui,-apple-system,sans-serif;
+    }
+    body{ background:var(--paper); color:var(--ink); font-family:var(--font-serif);
+          max-width:46rem; margin:3rem auto; padding:0 1.25rem; }
+    .chart-shell svg text{ font-family:var(--font-data); font-size:12px;
+          font-variant-numeric:tabular-nums lining-nums; fill:var(--ink); }
+    .docbox{ font-family:var(--font-data); font-size:.72rem; color:var(--ink-quiet);
+          line-height:1.5; border-top:1px solid var(--rule); padding-top:.4rem; margin-top:.5rem; }
+  </style>
+</head>
+<body>
+  <main>
+    <figure class="chart-shell" data-integrity-tier="public_analysis"
+      data-source="USDA Agricultural Marketing Service"
+      data-as-of="2026-07-10"
+      data-period="2020-01-01/2026-07-10"
+      data-units="USD per ton">
+      <!-- The heading states the finding, not the topic. -->
+      <h2>Lower Mississippi barge rates now exceed the 2022 peak by $1.14/ton</h2>
+      <svg role="img" aria-labelledby="chart-title chart-desc" viewBox="0 0 720 360">
+        <title id="chart-title">Lower Mississippi rates exceed the 2022 peak by $1.14 per ton</title>
+        <desc id="chart-desc">Example placeholder geometry. Production output must draw the sourced
+          series with coordinates computed from the data, not hand-placed.</desc>
+        <line x1="60" y1="300" x2="690" y2="300" stroke="var(--grid)"></line>
+        <polyline points="60,260 250,210 440,135 690,90" fill="none" stroke="var(--ink)"
+          stroke-width="1.25"></polyline>
+        <!-- Endpoint marker tied to a printed number, per visual-style references/charts.md §5.2. -->
+        <circle cx="690" cy="90" r="4" fill="var(--signal-current)"></circle>
+        <text x="680" y="75" text-anchor="end">Current $24.18/ton</text>
+      </svg>
+      <!-- public_analysis tier: every field in chart_rules.yml -> integrity_tiers.public_analysis.
+           "Showing" is the display universe (K of N) plus the rule that cut it — omit it and you report
+           a numerator while hiding the denominator. "Pre-specified" needs a committed path and SHA, or
+           it reads "exploratory" and the Interocular Trauma Test becomes required (visual-style references/integrity.md §9).
+           Relation names appear inside <code>, never in the prose around them. -->
+      <figcaption class="docbox">
+        <strong>Source:</strong> USDA Agricultural Marketing Service, via
+        <code>marts.mart_example_rate_history</code> (release <code>rel_2026_07_10</code>).
+        <strong>Grain:</strong> one row per rate segment per week.
+        <strong>As of:</strong> 2026-07-10. <strong>Period:</strong> 2020-01-01 to 2026-07-10.
+        <strong>Units:</strong> USD per ton. <strong>n:</strong> 338 weeks.
+        <strong>Showing:</strong> 10 of 10 qualifying lower-river segments — no display cut.
+        <strong>Evidence class:</strong> observed — USDA-published spot rates, not modeled.
+        <strong>Uncertainty:</strong> none — published values, not an estimate.
+        <strong>Built by:</strong> K. Beegle (guarantor).
+        <strong>Pre-specified:</strong> yes — <code>articles/reports/drafts/q3-plan.md</code> @ <code>a1b2c3d</code>.
+      </figcaption>
+    </figure>
+  </main>
+</body>
+</html>
