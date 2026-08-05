@@ -189,6 +189,14 @@ a:hover { color: var(--signal-hover); border-bottom-color: var(--signal-hover); 
 .lead__body p + p { color: var(--quiet); }
 .lead__aside { display: flex; flex-direction: column; gap: var(--s2); min-width: 0; }
 
+/* The ledger is an index of articles, not a numeric table: the finding is a
+   sentence the reader reads, and the date, series and evidence are apparatus
+   hung off it. So the row carries a real size ladder — 17 / 12 / 11.5 / 10.5 —
+   rather than setting every column at one small size and asking the reader to
+   work out which one is the content (§03: separate primary from secondary by
+   size, not only by position). The finding is set at the prose size so moving
+   from the lead article into the index does not change reading mode. */
+
 .ledger { width: 100%; border-collapse: collapse; font-family: var(--sans); font-variant-numeric: tabular-nums lining-nums; }
 .ledger th {
   text-align: left; font-size: 10.5px; letter-spacing: .08em; text-transform: uppercase;
@@ -196,18 +204,51 @@ a:hover { color: var(--signal-hover); border-bottom-color: var(--signal-hover); 
   border-bottom: var(--spine) solid var(--ink); padding: 7px 10px;
 }
 .ledger th:first-child, .ledger td:first-child { padding-left: 0; }
-.ledger th:last-child, .ledger td:last-child { padding-right: 0; text-align: right; }
+/* The last column is evidence — prose, not a figure. Right-alignment is the
+   rule for numbers; on wrapping text it hides the start of every line. */
+.ledger th:last-child, .ledger td:last-child { padding-right: 0; text-align: left; }
 .ledger td {
-  padding: var(--s2) 10px; font-size: 12px; color: var(--quiet);
+  padding: var(--s3) 10px; font-size: 12px; color: var(--quiet);
   border-bottom: 1px solid var(--hair); vertical-align: top;
 }
-.ledger__finding { font-family: var(--serif); font-size: 15.5px; line-height: 1.35; color: var(--ink); }
-.ledger__finding a { color: var(--ink); border-bottom-color: var(--rule); }
-.ledger__finding a:hover { color: var(--signal); border-bottom-color: var(--signal-hover); }
+.ledger td:last-child { font-size: 11.5px; line-height: 1.45; }
+/* Must stay scoped to `.ledger td`. As a bare `.ledger__finding` this rule
+   loses to `.ledger td` above on specificity and the finding silently renders
+   at the apparatus size — which is what it did until 2026-08-04. */
+.ledger td.ledger__finding {
+  font-family: var(--serif); font-size: 17px; line-height: 1.45; color: var(--ink);
+  padding-right: 26px;
+}
+/* A border-bottom draws under every line box at the foot of the box, so on a
+   wrapped serif it cuts the descenders. A real underline can be offset and can
+   skip the ink, which keeps the affordance without shredding the letterforms. */
+.ledger td.ledger__finding a {
+  color: var(--ink); border-bottom: 0;
+  text-decoration: underline;
+  text-decoration-color: var(--rule);
+  text-decoration-thickness: 1px;
+  text-underline-offset: .16em;
+  -webkit-text-decoration-skip-ink: auto;
+  text-decoration-skip-ink: auto;
+  transition: color 120ms linear, text-decoration-color 120ms linear;
+}
+.ledger td.ledger__finding a:hover { color: var(--signal); text-decoration-color: var(--signal-hover); }
+/* Apparatus cells nudge down so their cap-height sits on the finding's first line. */
+.ledger tbody td:not(.ledger__finding) { padding-top: calc(var(--s3) + 4px); }
 .ledger .is-signal { color: var(--signal); }
-.ledger col.c-date   { width: 96px; }
-.ledger col.c-series { width: 112px; }
-.ledger col.c-evid   { width: 170px; }
+/* Column widths set the finding's measure, so they are set from it. At 12px in
+   a 556px column the finding ran a 96-character median line — half again over
+   the comfortable band, which is why the old ledger read as hard work even
+   before the size is argued about.
+
+   Date and series stay fixed: their content has a known maximum ("River Note",
+   "Aug 3") and does not grow with the frame. Evidence is prose and can flow, so
+   it is proportional — that keeps the finding between roughly 44 and 66
+   characters from the widest desk down to the stacking breakpoint, instead of a
+   fixed sibling starving it at the narrow end. */
+.ledger col.c-date   { width: 76px; }
+.ledger col.c-series { width: 92px; }
+.ledger col.c-evid   { width: 21%; }
 .ledger col.c-access { width: 82px; }
 .ledger__count { font-family: var(--sans); font-size: 11.5px; line-height: 1.55; color: var(--quiet); }
 
@@ -431,15 +472,22 @@ a:hover { color: var(--signal-hover); border-bottom-color: var(--signal-hover); 
   .ledger, .ledger tbody, .ledger tr, .ledger td { display: block; }
   .ledger thead, .ledger colgroup { display: none; }
   .ledger { min-width: 0; }
+  /* Taller rows than the desktop table: once the row stacks, the gap between
+     entries is the only thing separating one article from the next. */
   .ledger tr {
-    display: grid; grid-template-columns: auto auto 1fr; gap: 4px 12px;
-    padding: var(--s3) 0; border-bottom: 1px solid var(--hair);
+    display: grid; grid-template-columns: auto auto 1fr; gap: 5px 12px;
+    padding: var(--s4) 0; border-bottom: 1px solid var(--hair);
   }
-  .ledger td { border: 0; padding: 0; }
+  .ledger td, .ledger tbody td:not(.ledger__finding) { border: 0; padding: 0; }
   /* Date, series and access share the top line; finding and evidence follow. */
   .ledger td:nth-child(5) { grid-row: 1; grid-column: 3; text-align: right; }
   .ledger td:nth-child(3), .ledger td:nth-child(4), .ledger td[colspan] { grid-column: 1 / -1; }
-  .ledger__finding { padding: 2px 0; }
+  /* Stacked, the evidence line sits under a left-aligned finding — the
+     desktop table's last-column alignment would strand it against the margin. */
+  .ledger td:last-child { text-align: left; }
+  /* Stacked, the finding has the full column, so it needs its own ceiling —
+     at the top of this band the row is wide enough to overrun the measure. */
+  .ledger td.ledger__finding { padding: 3px 0 4px; max-width: 32em; }
 }
 
 @media (max-width: 560px) {
