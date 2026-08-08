@@ -5,7 +5,7 @@
   "base_url": "",
   "byline_default": "Ken Beegle",
   "_release_id_note": "The folio states the data-lake release each page was built against. Set this from get_release_status before publishing; while it is null the folio prints the date alone rather than an unverified id.",
-  "release_id": null,
+  "release_id": "20260807T143806Z-b32e63f3",
   "nav": [
     {
       "label": "Analyses",

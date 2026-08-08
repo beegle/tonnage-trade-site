@@ -1,0 +1,135 @@
+{
+  "slug": "river-note-2026-08-07",
+  "kind": "river_note",
+  "title": "Rates up a fifth week with September quoted 14 to 41% higher, and the first low-water advisory is posted",
+  "standfirst": "The Coast Guard posted the season's first low-water advisory on the Lower Mississippi, the export corridor rose $1.19 to $19.28 a ton, and USDA's forward quotes now date the squeeze: September carries the premium, November is quoted back near par.",
+  "byline": "Ken Beegle",
+  "min_tier": "free",
+  "as_of": "2026-08-04",
+  "published_at": "2026-08-07",
+  "featured": false,
+  "tags": ["Rates", "River conditions", "Locks", "Grain"],
+  "meta_description": "Weekly Inland River Market Note, August 7, 2026: the Coast Guard posts the season's first low-water advisory, the Lower Mississippi corridor rises a fifth straight week to $19.28 a ton, and USDA's forward quotes date the squeeze to September at 14 to 41 percent over spot.",
+  "ledger_finding": "The Coast Guard posted the season's first low-water advisory, and USDA's forward quotes now date the squeeze: September 14 to 41 percent over spot, November near par.",
+  "ledger_evidence": "USDA barge rates, NWS forecasts, USACE and USCG notices · observed",
+  "lead": {
+    "paragraphs": [
+      "The U.S. Coast Guard posted the <strong>season's first low-water advisory</strong> for the Lower Mississippi from mile 167 to 303, effective August 3: adjust tow sizes and loading drafts to decreasing channel depths. Last week nothing was posted anywhere we checked. The export corridor rose a <strong>fifth straight week, $1.19 to $19.28 a ton</strong>, and for the first time in the rally the print is fully explained by river levels, season and fuel.",
+      "The rain the basin was waiting for arrived, and the forecasts now show exactly how much it bought: St. Louis rose 5.3 ft and crests near <strong>8.0 ft this weekend</strong>, then is forecast below zero around August 17. Memphis, below zero since August 3, gets a week above the line, then is forecast to <strong>−4.1 ft by August 21</strong>, the deepest reading of the season."
+    ]
+  },
+  "sections": [
+    {
+      "kind": "key_figure",
+      "label": "Lower Mississippi export corridor",
+      "value": "$19.28",
+      "unit": "per ton",
+      "change": "↑ $1.19 vs. last week (6.6%)",
+      "change_dir": "negative",
+      "spark": [12.37, 12.19, 12.08, 12.10, 12.50, 13.80, 14.54, 18.09, 19.28],
+      "spark_label": "Sparkline: the ten-segment lower-Mississippi rate flat near $12.10 a ton into late June, then rising five weeks running to $19.28.",
+      "spark_caption": "<strong>Rate, US$/ton.</strong> $12.37 → $19.28. Nine report weeks to August 4, 2026.",
+      "context": "Ten segments, all reporting every week in the window. The August 4 print is 6.6% above the prior week and 59% above June 30, the fifth consecutive weekly rise and the slowest of the five.",
+      "source_line": "USDA Agricultural Marketing Service, week ending August 4, 2026",
+      "as_of": "2026-08-04"
+    },
+    {
+      "kind": "supertable",
+      "caption": "<strong>The rally slowed but did not stop: the export corridor rose $1.19 while the Illinois held flat.</strong> Observed weekly rates, all five river systems, week ending August 4, 2026.",
+      "columns": [
+        {"label": "River system", "numeric": false},
+        {"label": "US$ per ton", "numeric": true},
+        {"label": "Change vs. last week", "numeric": true}
+      ],
+      "rows": [
+        ["Upper Mississippi (5 segments)", "$43.96", "↑ $0.79"],
+        ["Illinois (6 segments)", "$38.72", "$0.00"],
+        ["Ohio (4 segments)", "$28.72", "↑ $0.27"],
+        ["Middle Mississippi (1 segment)", "$25.45", "↓ $0.17"],
+        ["Lower Mississippi (10 segments)", "$19.28", "↑ $1.19"]
+      ],
+      "source_line": "USDA Agricultural Marketing Service, week ending August 4, 2026. Middle Mississippi is a single quote, not an average"
+    },
+    {
+      "kind": "prose",
+      "html": "<h2>The forward curve re-dated the squeeze to September</h2><p>USDA's forward quotes rolled this week: one month out now quotes September, three months out quotes November, and October is not quoted at all, so no same-month comparison to last week exists. The shape is the story. <strong>September is quoted 14 to 41% above current</strong> across the seven origin regions, steepest on Cairo to Memphis at 41%, the origin that loads through the falling mid-river. <strong>November is quoted back within −2 to +8% of current</strong> at every origin. Sellers are asking a premium for the squeeze and pricing its release: a September to October peak that passes.</p><p>These are percent-of-tariff quotes by origin region, a different unit and geography from the dollar-per-ton table above, and the two are never combined. The whole structure rests on a river forecast that has already broken once: last week's quotes priced October at up to 44% over spot before this week's rain arrived.</p>"
+    },
+    {
+      "kind": "prose",
+      "html": "<h2>The model caught the print</h2><p>Last week the market ran $2.15 ahead of our estimate of barge rates from river levels, season and fuel. This week the model catches the print almost exactly: $19.07 estimated against $19.28 observed, a $0.22 gap. The froth is gone; the water explains the price. On weeks it hasn't seen, that estimate lands within about $5.26 a ton of actual, widening to about $9.41 in drought.</p><p>The rate-pressure index across all 26 reporting segments held at 100 of 100 a second week, and the corridor runs 66% above its seasonal baseline of $11.59, a baseline that itself stepped up from $9.01 as the calendar moves toward harvest. The model's forward view adds a modest $0.31 a ton as its low-water severity input rises from 0.80 to 0.86.</p>"
+    },
+    {
+      "kind": "prose",
+      "html": "<h2>River conditions: the rain buys until mid-August</h2><p>Mississippi River at St. Louis, MO (NWS EADM7): <strong>7.5 ft stage</strong> on August 7, up 5.3 ft from its July 30 low. The forecast issued August 6 crests near 8.0 ft August 8 to 9, then falls without interruption: below 0 ft around August 17, through the district's −0.5 ft Cliff Cave controlling-depth threshold around August 18, to −1.4 ft by August 21, deeper than anything in last week's forecast.</p><p>Mississippi River at Memphis, TN (NWS MEMT1): <strong>−0.8 ft stage</strong> on August 7. Memphis crossed below zero on August 3, four days earlier than forecast, and bottomed at −1.1 ft. The pulse lifts it above zero from about August 8 to 14, then the forecast falls hard: −1.9 ft by August 18 and <strong>−4.1 ft by August 21</strong>, the deepest reading of the season.</p><p>Mississippi River at Vicksburg, MS (NWS VCKM6): <strong>12.1 ft stage</strong> on August 7, down 6.4 ft in a week. It reached the level last week's forecast had for August 21 two weeks early; the new forecast flattens near 12 ft as the pulse passes.</p><p>What changed this week is that thin water stopped being implication. The Coast Guard Captain of the Port New Orleans issued a <strong>Low Water Safety Advisory effective August 3</strong>, the first formal low-water posting of the season in the feeds we collect, covering the Lower Mississippi from mile 167 to mile 303. Its provisions are advisory rather than hard limits: adjust tow sizes and loading drafts to decreasing depths, transit in the charted channel, staff with the most experienced crews. The trigger is the Baton Rouge gauge falling through 12 ft; it read 10.5 ft on August 6. The weather splits the difference: the Climate Prediction Center's August 7 outlooks give above-normal precipitation chances from the Central Plains through the Mid-Atlantic for August 13 to 17, then near-to-below-normal through the Mississippi Valley for August 15 to 21.</p>"
+    },
+    {
+      "kind": "prose",
+      "html": "<h2>Locks: the first closure week doubled Lock 25's wait, and the calendar thickens</h2><p>Over arrivals July 31 to August 6, the longest average waits at completed lockages were <strong>Emsworth at 471 minutes</strong> (n=66, 90th percentile 1,488 minutes; its auxiliary chamber is closed through September 4 and its primary chamber runs intermittent closures averaging 17 hours a day), <strong>Lock and Dam 25 at 446 minutes</strong> (n=111, up from 235 the week before), LaGrange at 383, and Lock 19 at 330, up from 51 before its weekday daytime closures began August 3. Levels from a series that began in May 2026.</p><p>Next week stacks higher. The St. Louis District's August 5 channel report <strong>extends Lock 25's 07:00 to 19:00 closures to August 10 through 19</strong>; the July 29 report had listed only August 4 and 6. Lock 19's weekday closures run through August 21. <strong>Barkley Lock closes August 10 through September 30</strong>, with the alternate route via Kentucky Lock and the Barkley Canal, and Smithland begins controls-upgrade closures August 24 with one chamber always open. All three district dredges remain out, but the report now schedules Dredge Goetz at the Lock 24 tailwater around August 14 and the Lock 25 tailwater around August 20, with both flagged probable-problematic at 9-ft depth from August 12 and 15: the shoal is expected before the dredge.</p>"
+    },
+    {
+      "kind": "prose",
+      "html": "<h2>Demand: the flow went flat and the empties stopped going up</h2><p>Downbound grain through the tracked count points held at <strong>2.37 million tons</strong> in the week ending August 1, dead flat after five weekly rises. The mix moved: Locks 27, the last count point above St. Louis, fell 13%, while Olmsted on the Ohio nearly tripled. Upbound empty barges at Locks 27 fell to <strong>289, down 32%</strong> and below even the late-June trough; operators spent five weeks staging capacity upriver, and in the week the advisory posted, they stopped. Gulf export inspections rose a third straight report, to 1.20 million tons.</p><p>Midwest diesel printed <strong>$5.262 a gallon</strong> on August 3, up 6.6¢ on the week after July's 20.8¢ and 32.9¢ jumps, and 18% above the July 6 trough. The cost squeeze is still two-sided, more fuel per ton on lighter drafts at a higher price per gallon, but the price side stopped accelerating.</p>"
+    },
+    {
+      "kind": "watch_list",
+      "title": "Bottom line — what to watch into next week",
+      "items": [
+        {
+          "when": "Mon Aug 10",
+          "claim": "Lock 25 daytime closures resume, 07:00 to 19:00 daily through August 19, and Barkley Lock closes through September 30",
+          "basis": "USACE St. Louis District channel report, August 5; USACE notice 213653-1 (Nashville)"
+        },
+        {
+          "when": "Tue Aug 11",
+          "claim": "USDA barge-rate week ends; the sixth-week test of the rally, the first with an advisory posted",
+          "basis": "Weekly USDA Agricultural Marketing Service print"
+        },
+        {
+          "when": "Wed Aug 12 to Fri Aug 14",
+          "claim": "The Lock 24 tailwater is flagged probable-problematic at 9-ft depth from August 12; Dredge Goetz is posted to arrive August 14",
+          "basis": "USACE St. Louis District channel report, August 5"
+        },
+        {
+          "when": "Thu Aug 13",
+          "claim": "CPC's above-normal precipitation window opens, August 13 to 17, the leg of the story that has already flipped once",
+          "basis": "NOAA CPC outlooks issued August 7"
+        },
+        {
+          "when": "Fri Aug 14 to Sat Aug 15",
+          "claim": "Memphis is forecast back below 0 ft as the pulse passes",
+          "basis": "NWS forecast issued August 6; forecasts revise daily"
+        },
+        {
+          "when": "Mon Aug 17 to Tue Aug 18",
+          "claim": "St. Louis is forecast below 0 ft, then through the −0.5 ft Cliff Cave controlling-depth threshold",
+          "basis": "NWS forecast issued August 6; USACE channel report, August 5"
+        },
+        {
+          "when": "Fri Aug 21",
+          "claim": "Forecast lows of the season: Memphis −4.1 ft, St. Louis −1.4 ft; Lock 19's weekday closures end",
+          "basis": "NWS forecast issued August 6; USACE notice 214755 (Rock Island)"
+        },
+        {
+          "when": "Mon Aug 24",
+          "claim": "Smithland begins controls-upgrade closures, land chamber first, one chamber open throughout",
+          "basis": "USACE notice 214804 (Louisville)"
+        }
+      ]
+    },
+    {
+      "kind": "docbox",
+      "fields": {
+        "Source": "USDA Agricultural Marketing Service barge rates and tariff quotes; NWS river forecasts; USACE LPMS lock queues, Notices to Navigation Interests and St. Louis District channel condition report; USCG Local Notices to Mariners, MSIB Vol XXVI Issue 026",
+        "Grain": "One row per river segment per weekly report date; one forecast issuance per gauge; one row per lockage",
+        "Showing": "10 of 26 reporting segments for the export-corridor proxy; 3 of 16 gauges, the three bellwethers bound to the export corridor; locks with at least 50 completed lockages in the wait figures",
+        "Period": "Rates and model through the week ending August 4, 2026; river and lock conditions through August 7; grain movements through the week ending August 1",
+        "Units": "US$ per ton; percent of the 1976 benchmark tariff; feet; short tons; minutes",
+        "Evidence class": "Observed. The modeled rate is estimated, out-of-sample error about $5.26 a ton and about $9.41 in drought; forecast stages revise daily",
+        "Uncertainty": "Forward quotes are asks, not transactions, and the river forecast beneath them has missed in both directions inside two weeks",
+        "Built by": "Ken Beegle",
+        "Pre-specified": "No — exploratory"
+      },
+      "as_of": "2026-08-07"
+    }
+  ]
+}
